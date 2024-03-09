@@ -1,0 +1,66 @@
+{
+    "farmData": {
+        "Fortitude Crystal": {
+            "data": "Roost and Reign (Maniac 2 Griffons) is the best quest for Fortitude Crystals.\nUse a ranged character for best results.",
+            "link": "https://nenkai.github.io/relink-modding/resources/quest_drop_rates/#roost-and-reign-406351",
+            "help": "This gives the best quest for farming Fortitude Crystals."
+        },
+        "Terminus Weapon": {
+            "data": "Terminus Weapons only drop from `Tales of Bahamut's Rage`.\nComplete `ALL` proud quests to unlock this.\n20% Drop Rate for Unowned Weapons (Based on Unlocked Characters).\n(Credits to Nenkai)",
+            "link": "https://nenkai.github.io/relink-modding/resources/quest_drop_rates/#the-tale-of-bahamuts-rage-407318",
+            "help": "This gives the drop rate for Terminus Weapons."
+        },
+        "Supplementary Damage": {
+            "data": "Supplementary Damage Sigils drop from Curios.\nSee the `Curios` command for more information.",
+            "link": "https://nenkai.github.io/relink-modding/resources/curio_loot_rates/",
+            "help": "This explains how to get Supplementary Damage Sigils."
+        },
+        "War Elemental": {
+            "data": "War Elemental Sigils drop from Curios.\nSee the `Curios` command for more information.",
+            "link": "https://nenkai.github.io/relink-modding/resources/curio_loot_rates/",
+            "help": "This explains how to get War Elemental Sigils."
+        },
+        "Curios": {
+            "data": "Curios drop in different tiers (1-4).\nRare Sigils drop best from T4 Sigils.\nIf you have cleared `The Final Report` then group 5 curios will drop from all your quests.\nCheck the `Drops` command for a link to the Drop Rate of all Quests (Including Curios)\n(Credits to Nenkai)",
+            "link": "https://nenkai.github.io/relink-modding/resources/curio_loot_rates/",
+            "help": "This explains how to get Curios."
+        }
+    },
+    "faqData": {
+        "Calculator": {
+            "data": "Damage Calcualtor for Granblue Fantasy Relink.\n(Credits to Maygi)",
+            "link": "https://docs.google.com/spreadsheets/d/1RnNLfdqFCW7zWvfHnQsNRJoi7EtIjdOUg-uYB0xsZHQ/edit#gid=1519714141",
+            "image": "https://i.imgur.com/ymvvOeh.png",
+            "help": "This gives a link to the Damage Calcualtor."
+        },
+        "Drops": {
+            "data": "Drop Rate Data for all Quests.",
+            "link": "https://nenkai.github.io/relink-modding/resources/quest_drop_rates/",
+            "help": "This gives a link to the Drop Rate Table for all Quests."
+        },
+        "AFK": {
+            "data": "Check this channel for information on how to Afk Farm.",
+            "link": "https://discord.com/channels/1201230973388456088/1205341744665989160/1210415854324285470",
+            "help": "This gives a link to the super soldiers character thread."
+        },
+        "Sigils": {
+            "data": "Basic guide on where to farm Sigils from Quests.\n(Credits to Redicular)",
+            "link": "https://www.reddit.com/r/GranblueFantasyRelink/comments/1aqtuno/v_sigil_farming_locations/",
+            "help": "This gives a link on where to farm Sigils from Quests."
+        }
+    },
+    "characters": {
+        "Narmaya": {
+            "thread": "https://discord.com/channels/1201230973388456088/1201388836761129024",
+            "guide": "https://discord.com/channels/1201230973388456088/1205283845000265728",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Narmaya Character Thread and Guide."
+        },
+        "Io": {
+            "thread": "https://discord.com/channels/1201230973388456088/1203477792017358870",
+            "guide": "https://discord.com/channels/1201230973388456088/1207453490570330212",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Io Character Thread and Guide."
+        }
+    }
+}
