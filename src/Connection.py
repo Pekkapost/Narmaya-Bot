@@ -1,6 +1,6 @@
 from BotConstants import getToken
 from HelpModule import MyHelpCommand
-from CommandModule import FAQ, FarmData, Characters
+from CommandModule import FAQ, FarmData, Characters, Extra
 import discord
 from discord.ext import commands
 from discord.ext.commands import CommandNotFound
@@ -44,9 +44,8 @@ async def on_message(message):
     if message.author == client.user:
         return
     # Check for LFG Command
-    if message.channel.id == threadChannel and message.content.startswith(threadPrefix) and message.channel.type == discord.ChannelType.text:
+    if message.channel.id == threadChannel and message.content.lower().startswith(threadPrefix) and message.channel.type == discord.ChannelType.text:
         mentions = message.raw_role_mentions
-        title = "Default Title"
         foundMention = False
         messageContent = message.content[len(threadPrefix):]
         for roleMention in mentions:
@@ -55,10 +54,7 @@ async def on_message(message):
                 foundMention = True
         if foundMention:
             title = message.author.name + "`s " + messageContent
-        thread = await message.create_thread(name=title)
-        # embed=discord.Embed(title=boss, url="https://fakelink.com/", description="Information goes here", color=0xFF5733)
-        # await thread.send("Here is data on the boss: `" + boss + "`", embed=embed)
-
+        await message.create_thread(name=title)
     # Wait for commands
     await client.process_commands(message)
 
@@ -67,6 +63,8 @@ async def main():
         await client.add_cog(FAQ(client))
         await client.add_cog(FarmData(client))
         await client.add_cog(Characters(client))
+        # await client.add_cog(Extra(client))
         await client.start(getToken())
+        await client.change_presence(activity=discord.Game(name="n!"))
 
 asyncio.run(main())
