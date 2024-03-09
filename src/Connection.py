@@ -49,13 +49,12 @@ async def on_message(message):
         title = "Default Title"
         foundMention = False
         messageContent = message.content[len(threadPrefix):]
-        print(messageContent)
         for roleMention in mentions:
             if roleMention in pingRoles:
                 messageContent = messageContent.replace("<@&"+str(roleMention)+">","")
                 foundMention = True
         if foundMention:
-            title = messageContent
+            title = message.author.name + "`s " + messageContent
         thread = await message.create_thread(name=title)
         # embed=discord.Embed(title=boss, url="https://fakelink.com/", description="Information goes here", color=0xFF5733)
         # await thread.send("Here is data on the boss: `" + boss + "`", embed=embed)
