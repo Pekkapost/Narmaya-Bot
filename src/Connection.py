@@ -56,7 +56,7 @@ async def on_message(message):
                 foundMention = True
         if foundMention:
             title = message.author.name + "`s " + messageContent
-        await message.create_thread(name=title)
+            await message.create_thread(name=title)
     # Wait for commands
     await client.process_commands(message)
 
