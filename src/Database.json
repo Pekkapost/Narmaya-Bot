@@ -61,6 +61,108 @@
             "guide": "https://discord.com/channels/1201230973388456088/1207453490570330212",
             "color": "0xfda2f5",
             "help": "This gives a link to the Io Character Thread and Guide."
+        },
+        "Captain": {
+            "thread": "https://discord.com/channels/1201230973388456088/1205013424770130001",
+            "guide": "https://discord.com/channels/1201230973388456088/1208184601407655966",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Captain Character Thread and Guide."
+        },
+        "Katalina": {
+            "thread": "https://discord.com/channels/1201230973388456088/1203456369026535424",
+            "guide": "https://discord.com/channels/1201230973388456088/1207410971082100736",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Katalina Character Thread and Guide."
+        },
+        "Rackam": {
+            "thread": "https://discord.com/channels/1201230973388456088/1202998868837404712",
+            "guide": "https://discord.com/channels/1201230973388456088/1207819487240257546",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Rackam Character Thread and Guide."
+        },
+        "Eugen": {
+            "thread": "https://discord.com/channels/1201230973388456088/1203188229629812816",
+            "guide": "",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Eugen Character Thread and Guide."
+        },
+        "Rosetta": {
+            "thread": "https://discord.com/channels/1201230973388456088/1201730834143387678",
+            "guide": "https://discord.com/channels/1201230973388456088/1207392595295342592",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Rosetta Character Thread and Guide."
+        },
+        "Ferry": {
+            "thread": "https://discord.com/channels/1201230973388456088/1202572876411183134",
+            "guide": "https://discord.com/channels/1201230973388456088/1207581823425716265",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Ferry Character Thread and Guide."
+        },
+        "Lancelot": {
+            "thread": "https://discord.com/channels/1201230973388456088/1202029826664570940",
+            "guide": "",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Lancelot Character Thread and Guide."
+        },
+        "Percival": {
+            "thread": "https://discord.com/channels/1201230973388456088/1201976063786504332",
+            "guide": "https://discord.com/channels/1201230973388456088/1207436396990570618",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Percy Character Thread and Guide."
+        },
+        "Vane": {
+            "thread": "https://discord.com/channels/1201230973388456088/1201442226526490685",
+            "guide": "https://discord.com/channels/1201230973388456088/1208511856701083678",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Vane Character Thread and Guide."
+        },
+        "Siegfried": {
+            "thread": "https://discord.com/channels/1201230973388456088/1202755515671646249",
+            "guide": "https://discord.com/channels/1201230973388456088/1207443611940290580",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Siegfried Character Thread and Guide."
+        },
+        "Charlotta": {
+            "thread": "https://discord.com/channels/1201230973388456088/1203045888587464704",
+            "guide": "https://discord.com/channels/1201230973388456088/1211756758507327579",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Charlotta Character Thread and Guide."
+        },
+        "Yodarha": {
+            "thread": "https://discord.com/channels/1201230973388456088/1202555604816887808",
+            "guide": "https://discord.com/channels/1201230973388456088/1207830137798787142",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Yodarha Character Thread and Guide."
+        },
+        "Zeta": {
+            "thread": "https://discord.com/channels/1201230973388456088/1201975124211794021",
+            "guide": "https://discord.com/channels/1201230973388456088/1205369850285785110",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Zeta Character Thread and Guide."
+        },
+        "Vaseraga": {
+            "thread": "https://discord.com/channels/1201230973388456088/1202454231127166976",
+            "guide": "",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Vaseraga Character Thread and Guide."
+        },
+        "Cagliostro": {
+            "thread": "https://discord.com/channels/1201230973388456088/1205081944363245578",
+            "guide": "https://discord.com/channels/1201230973388456088/1205278677198315620",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Cagliostro Character Thread and Guide."
+        },
+        "Ghandagoza": {
+            "thread": "https://discord.com/channels/1201230973388456088/1203151264213368862",
+            "guide": "https://discord.com/channels/1201230973388456088/1207524937775058994",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Ghandagoza Character Thread and Guide."
+        },
+        "Id": {
+            "thread": "https://discord.com/channels/1201230973388456088/1203184498439884840",
+            "guide": "https://discord.com/channels/1201230973388456088/1207403175523516467",
+            "color": "0xfda2f5",
+            "help": "This gives a link to the Id Character Thread and Guide."
         }
     }
 }
