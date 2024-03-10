@@ -1,6 +1,6 @@
 from BotConstants import getToken
 from HelpModule import MyHelpCommand
-from CommandModule import FAQ, FarmData, Characters, Extra
+from CommandModule import FAQ, FarmData, Characters
 import discord
 from discord.ext import commands
 from discord.ext.commands import CommandNotFound
@@ -12,11 +12,11 @@ import re
 cwd = os.path.dirname(os.path.realpath(__file__))
 
 # Load Variables
-varFile = open(cwd + "\GBFRdiscord.json")
+varFile = open(cwd + "/GBFRdiscord.json")
 varData = json.load(varFile)
 # Set Variables
 threadPrefix = varData["threadPrefix"]
-threadChannel = varData["threadChannel"]
+threadList = varData["threadList"]
 prefix = varData["prefix"]
 pingRoles = varData["pingRoles"]
 
@@ -44,10 +44,12 @@ async def on_message(message):
     if message.author == client.user:
         return
     # Check for LFG Command
-    if message.channel.id == threadChannel and message.content.lower().startswith(threadPrefix) and message.channel.type == discord.ChannelType.text:
+    if message.channel.id in threadList and message.channel.type == discord.ChannelType.text:
         mentions = message.raw_role_mentions
         foundMention = False
-        messageContent = message.content[len(threadPrefix):]
+        messageContent = message.content
+        if threadPrefix in messageContent:
+            messageContent = messageContent.replace(threadPrefix,"")
         for roleMention in mentions:
             if roleMention in pingRoles:
                 messageContent = messageContent.replace("<@&"+str(roleMention)+">","")
@@ -63,7 +65,6 @@ async def main():
         await client.add_cog(FAQ(client))
         await client.add_cog(FarmData(client))
         await client.add_cog(Characters(client))
-        # await client.add_cog(Extra(client))
         await client.start(getToken())
         await client.change_presence(activity=discord.Game(name="n!"))
 

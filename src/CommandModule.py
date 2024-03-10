@@ -6,7 +6,7 @@ import re
 
 global dataFile, database
 cwd = os.path.dirname(os.path.realpath(__file__))
-dataFile = open(cwd + "\Database.json")
+dataFile = open(cwd + "/Database.json")
 database = json.load(dataFile)
 
 class FarmData(commands.Cog):
@@ -169,17 +169,3 @@ class Characters(commands.Cog):
         character = "Io"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
-    
-class Extra(commands.Cog):
-    def __init__(self, client):
-        self.client = client
-    @commands.command()
-    async def update(self, ctx):
-        if ctx.channel.type == discord.ChannelType.public_thread:
-            channelName = ctx.channel.name
-            currentCount = re.findall(".(./.).",channelName)[0]
-            print("("+currentCount+")")
-            print("("+str(int(currentCount[0])+1)+currentCount[1:]+")")
-            channelName = channelName.replace("("+currentCount+")","("+str(int(currentCount[0])+1)+currentCount[1:]+")")
-            print(channelName)
-            await ctx.channel.edit(name = channelName)
