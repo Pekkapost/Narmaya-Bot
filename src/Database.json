@@ -47,6 +47,11 @@
             "data": "Basic guide on where to farm Sigils from Quests.\n(Credits to Redicular)",
             "link": "https://www.reddit.com/r/GranblueFantasyRelink/comments/1aqtuno/v_sigil_farming_locations/",
             "help": "This gives a link on where to farm Sigils from Quests."
+        },
+        "DPSMeter": {
+            "data": "DPS Meter for Granblue Fantasy Relink.\nRead the github for instructions on how to install.\n(Credits to False Spring, Naoouo, and the team behind GBFR-ACT)",
+            "link": "https://github.com/false-spring/gbfr-logs",
+            "help": "This gives a link to install a dps meter."
         }
     },
     "characters": {
@@ -82,7 +87,7 @@
         },
         "Eugen": {
             "thread": "https://discord.com/channels/1201230973388456088/1203188229629812816",
-            "guide": "",
+            "guide": "https://imgur.com/a/LobuRKb",
             "color": "0xfda2f5",
             "help": "This gives a link to the Eugen Character Thread and Guide."
         },
@@ -142,7 +147,7 @@
         },
         "Vaseraga": {
             "thread": "https://discord.com/channels/1201230973388456088/1202454231127166976",
-            "guide": "",
+            "guide": "https://discord.com/channels/1201230973388456088/1202454231127166976/1202456638926356580",
             "color": "0xfda2f5",
             "help": "This gives a link to the Vaseraga Character Thread and Guide."
         },
@@ -163,6 +168,26 @@
             "guide": "https://discord.com/channels/1201230973388456088/1207403175523516467",
             "color": "0xfda2f5",
             "help": "This gives a link to the Id Character Thread and Guide."
+        }
+    },
+    "charBuild": {
+        "Narmaya": {
+            "1":{
+                "title": "Example Earlygame Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216535725143621632/narm1.PNG?ex=6600be2f&is=65ee492f&hm=ce9d9bc47d73acdf7b8108c65cac2eb763119cd031886f01cbfda319ed4e8e5c&",
+                "notes": "This is a lower damage build designed for survivability.\nNote: This is just an example."
+            },
+            "2":{
+                "title": "Example Endgame Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216537051080556695/narm2.PNG?ex=6600bf6b&is=65ee4a6b&hm=e4d0042ccb97c9a88faa5000188c7f6bcef38f19fb691777ea1033ade9bda043&",
+                "notes": "This is a max damage build with Glass Cannon (GC).\nReplace GC with linked together if you do not want it.\nTry to get a GC/SUP with quick cooldown if possible.\nNote: This is just an example."
+            },
+            "3":{
+                "title": "Example Perfect Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216537692922187796/tmpd0z_n2zq.PNG?ex=6600c004&is=65ee4b04&hm=4f9604e56689ab4ad8b3973cd2e05c0cf9f9b6066a5000c33059d8af86468aed&",
+                "notes": "This is a 'perfect' build with SUP V+ and GC V+.\nNote: This is just an example."
+            },
+            "help": "This displays example builds for Narmaya."
         }
     }
 }

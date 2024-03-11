@@ -133,6 +133,16 @@ class FAQ(commands.Cog):
         # Item to find
         item = "Drops"
         await ctx.send(embed=self.getEmbed(item))
+    
+    @commands.command(
+            aliases=["dps","dpsmeter"],
+            help=database["faqData"]["DPSMeter"]["help"],
+            brief=database["faqData"]["DPSMeter"]["help"]
+    )
+    async def dps_meter(self, ctx):
+        # Item to find
+        item = "DPSMeter"
+        await ctx.send(embed=self.getEmbed(item))
 
 class Characters(commands.Cog):
     def __init__(self, client):
@@ -343,13 +353,36 @@ class Characters(commands.Cog):
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
-class CharBuilds(commands.Cog):
+class CharBuild(commands.Cog):
     def __init__(self, client):
         self.client = client
     
+    def getBuild(self, character, charType):
+        charData = database["charBuild"]["Narmaya"][charType]
+        charColor = int(database["characters"][character]["color"],0)
+        embed=discord.Embed(title=charData["title"], description=charData["notes"], color=charColor)
+        embed.set_image(url=charData["link"])
+        return embed
+
+
     @commands.command(
-            help=database["characters"]["Narmaya"]["help"],
-            brief=database["characters"]["Narmaya"]["help"]
+            alias=["narmbuild"],
+            help=database["charBuild"]["Narmaya"]["help"],
+            brief=database["charBuild"]["Narmaya"]["help"]
     )
-    async def narmayaBuild(self, ctx):
-        pass
+    async def narmayabuild(self, ctx):
+        character = "Narmaya"
+        msgSplit = ctx.message.content.split()
+        if len(msgSplit) > 1:
+            charType = msgSplit[1]
+            if charType not in database["charBuild"][character]:
+                return
+            await ctx.send(embed=self.getBuild(character,charType))
+        else:
+            output = "```"
+            for item in database["charBuild"]["Narmaya"]:
+                if item.isnumeric():
+                    output += item + ": " + database["charBuild"]["Narmaya"][item]["title"] + " \n"
+            output += "Please input a number to pick your build```"
+            await ctx.send(output)
+

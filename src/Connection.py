@@ -1,6 +1,6 @@
 from BotConstants import getToken
 from HelpModule import MyHelpCommand
-from CommandModule import FAQ, FarmData, Characters,CharBuilds
+from CommandModule import FAQ, FarmData, Characters, CharBuild
 import discord
 from discord.ext import commands
 from discord.ext.commands import CommandNotFound
@@ -67,7 +67,7 @@ async def main():
         await client.add_cog(FAQ(client))
         await client.add_cog(FarmData(client))
         await client.add_cog(Characters(client))
-        await client.add_cog(CharBuilds(client))
+        await client.add_cog(CharBuild(client))
         await client.start(getToken())
         await client.change_presence(activity=discord.Game(name="n!"))
 
