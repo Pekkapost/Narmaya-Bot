@@ -53,6 +53,11 @@
             "link": "https://github.com/false-spring/gbfr-logs",
             "help": "This gives a link to install a dps meter."
         },
+        "DamageCap": {
+            "data": "Check this pin for how Damage Cap works.",
+            "link": "https://discord.com/channels/1201230973388456088/1201305336607424602/1216667924673200139",
+            "help": "This gives a link to how Damage Cap works."
+        },
         "Pins": {
             "help": "Read the Pins."
         }
@@ -176,12 +181,12 @@
     "charBuild": {
         "Narmaya": {
             "1":{
-                "title": "Example Earlygame Build.",
+                "title": "Example Mid Game Build.",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216535725143621632/narm1.PNG?ex=6600be2f&is=65ee492f&hm=ce9d9bc47d73acdf7b8108c65cac2eb763119cd031886f01cbfda319ed4e8e5c&",
                 "notes": "This is a lower damage build designed for survivability.\nNote: This is just an example."
             },
             "2":{
-                "title": "Example Endgame Build.",
+                "title": "Example End Game Build.",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216537051080556695/narm2.PNG?ex=6600bf6b&is=65ee4a6b&hm=e4d0042ccb97c9a88faa5000188c7f6bcef38f19fb691777ea1033ade9bda043&",
                 "notes": "This is a tap setsuna build with Glass Cannon (GC).\nReplace GC with linked together if you do not want it.\nTry to get a GC/SUP with quick cooldown if possible.\nNote: This is just an example."
             },
