@@ -143,6 +143,15 @@ class FAQ(commands.Cog):
         # Item to find
         item = "DPSMeter"
         await ctx.send(embed=self.getEmbed(item))
+    
+    @commands.command(
+            aliases=["pin"],
+            help=database["faqData"]["Pins"]["help"],
+            brief=database["faqData"]["Pins"]["help"]
+    )
+    async def pins(self, ctx):
+        # Item to find
+        await ctx.send("Read the Pins")
 
 class Characters(commands.Cog):
     def __init__(self, client):
