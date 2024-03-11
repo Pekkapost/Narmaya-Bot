@@ -14,8 +14,9 @@ class FarmData(commands.Cog):
         self.client = client
 
     def getEmbed(self, item):
-        faq = database["farmData"]
+        faq = database["farmdata"]
         data = faq[item]
+        name = data["title"]
         display = data["data"]
         link = ""
         if "link" in data:
@@ -23,58 +24,58 @@ class FarmData(commands.Cog):
         img = ""
         if "image" in data:
             img = data["image"]
-        embed=discord.Embed(title=item, url=link, description=display, color=0xa0a0ff)
+        embed=discord.Embed(title=name, url=link, description=display, color=0xa0a0ff)
         embed.set_thumbnail(url=img)
         return embed
 
     @commands.command(
             aliases=["terminus"],
-            help=database["farmData"]["Terminus Weapon"]["help"],
-            brief=database["farmData"]["Terminus Weapon"]["help"]
+            help=database["farmdata"]["terminusweapon"]["help"],
+            brief=database["farmdata"]["terminusweapon"]["help"]
     )
     async def terminus_weapon(self,ctx):
         # Item to find
-        item = "Terminus Weapon"
+        item = "terminusweapon"
         await ctx.send(embed=self.getEmbed(item))
 
     @commands.command(
-            aliases=["fortitude"],
-            help=database["farmData"]["Fortitude Crystal"]["help"],
-            brief=database["farmData"]["Fortitude Crystal"]["help"]
+            aliases=["fortitude","fortitudecrystal","crystal"],
+            help=database["farmdata"]["fortitudecrystal"]["help"],
+            brief=database["farmdata"]["fortitudecrystal"]["help"]
     )
     async def fortitude_crystal(self,ctx):
         # Item to find
-        item = "Fortitude Crystal"
+        item = "fortitudecrystal"
         await ctx.send(embed=self.getEmbed(item))
 
     @commands.command(
-            aliases=["supplementary","sup"],
-            help=database["farmData"]["Supplementary Damage"]["help"],
-            brief=database["farmData"]["Supplementary Damage"]["help"]
+            aliases=["supplementarydamage","supplementary","sup"],
+            help=database["farmdata"]["supplementarydamage"]["help"],
+            brief=database["farmdata"]["supplementarydamage"]["help"]
     )
     async def supplementary_damage(self,ctx):
         # Item to find
-        item = "Supplementary Damage"
+        item = "supplementarydamage"
         await ctx.send(embed=self.getEmbed(item))
 
     @commands.command(
-            aliases=["war"],
-            help=database["farmData"]["War Elemental"]["help"],
-            brief=database["farmData"]["War Elemental"]["help"]
+            aliases=["warelemental","war"],
+            help=database["farmdata"]["warelemental"]["help"],
+            brief=database["farmdata"]["warelemental"]["help"]
     )
     async def war_elemental(self,ctx):
         # Item to find
-        item = "War Elemental"
+        item = "warelemental"
         await ctx.send(embed=self.getEmbed(item))
 
     @commands.command(
             aliases=["curio"],
-            help=database["farmData"]["Curios"]["help"],
-            brief=database["farmData"]["Curios"]["help"]
+            help=database["farmdata"]["curios"]["help"],
+            brief=database["farmdata"]["curios"]["help"]
     )
     async def curios(self,ctx):
         # Item to find
-        item = "Curios"
+        item = "curios"
         await ctx.send(embed=self.getEmbed(item))
 
 class FAQ(commands.Cog):
@@ -82,8 +83,9 @@ class FAQ(commands.Cog):
         self.client = client
         
     def getEmbed(self, item):
-        faq = database["faqData"]
+        faq = database["faqdata"]
         data = faq[item]
+        name = data["title"]
         display = data["data"]
         link = ""
         if "link" in data:
@@ -91,73 +93,85 @@ class FAQ(commands.Cog):
         img = ""
         if "image" in data:
             img = data["image"]
-        embed=discord.Embed(title=item, url=link, description=display, color=0xa0a0ff)
+        embed=discord.Embed(title=name, url=link, description=display, color=0xa0a0ff)
         embed.set_thumbnail(url=img)
         return embed
 
     @commands.command(
-            aliases=["sigil"],
-            help=database["faqData"]["Sigils"]["help"],
-            brief=database["faqData"]["Sigils"]["help"]
+            aliases=["sigilfarm","sigil"],
+            help=database["faqdata"]["sigils"]["help"],
+            brief=database["faqdata"]["sigils"]["help"]
     )
     async def sigil_farm(self, ctx):
         # Item to find
-        item = "Sigils"
+        item = "sigils"
         await ctx.send(embed=self.getEmbed(item))
     
     @commands.command(
-            help=database["faqData"]["AFK"]["help"],
-            brief=database["faqData"]["AFK"]["help"]
+            help=database["faqdata"]["afk"]["help"],
+            brief=database["faqdata"]["afk"]["help"]
     )
     async def afk(self, ctx):
         # Item to find
-        item = "AFK"
+        item = "afk"
         await ctx.send(embed=self.getEmbed(item))
     
     @commands.command(
-            aliases=["calc","calculator"],
-            help=database["faqData"]["Calculator"]["help"],
-            brief=database["faqData"]["Calculator"]["help"]
+            aliases=["damagecalculator","calculator","calc"],
+            help=database["faqdata"]["calculator"]["help"],
+            brief=database["faqdata"]["calculator"]["help"]
     )
     async def damage_calculator(self, ctx):
         # Item to find
-        item = "Calculator"
+        item = "calculator"
         await ctx.send(embed=self.getEmbed(item))
         
     @commands.command(
-            aliases=["drop","drops","drop_rate"],
-            help=database["faqData"]["Drops"]["help"],
-            brief=database["faqData"]["Drops"]["help"]
+            aliases=["questratetabe","questrate","quest_rate","questdrops","quest_drops"],
+            help=database["faqdata"]["questdrops"]["help"],
+            brief=database["faqdata"]["questdrops"]["help"]
     )
-    async def drop_rate_table(self, ctx):
+    async def quest_rate_table(self, ctx):
         # Item to find
-        item = "Drops"
+        item = "questdrops"
         await ctx.send(embed=self.getEmbed(item))
     
+
     @commands.command(
-            aliases=["dps","dpsmeter"],
-            help=database["faqData"]["DPSMeter"]["help"],
-            brief=database["faqData"]["DPSMeter"]["help"]
+            aliases=["curioratetable","curiorate","curio_rate","curiodrops","curio_drops"],
+            help=database["faqdata"]["curiodrops"]["help"],
+            brief=database["faqdata"]["curiodrops"]["help"]
+    )
+    async def curio_rate_table(self, ctx):
+        # Item to find
+        item = "curiodrops"
+        await ctx.send(embed=self.getEmbed(item))
+
+    
+    @commands.command(
+            aliases=["dpsmeter","dps"],
+            help=database["faqdata"]["dpsmeter"]["help"],
+            brief=database["faqdata"]["dpsmeter"]["help"]
     )
     async def dps_meter(self, ctx):
         # Item to find
-        item = "DPSMeter"
+        item = "dpsmeter"
         await ctx.send(embed=self.getEmbed(item))
     
     @commands.command(
-            aliases=["cap","damagecap"],
-            help=database["faqData"]["DamageCap"]["help"],
-            brief=database["faqData"]["DamageCap"]["help"]
+            aliases=["damagecap","dmgcap","cap"],
+            help=database["faqdata"]["damagecap"]["help"],
+            brief=database["faqdata"]["damagecap"]["help"]
     )
     async def damage_cap(self, ctx):
         # Item to find
-        item = "DamageCap"
+        item = "damagecap"
         await ctx.send(embed=self.getEmbed(item))
     
     @commands.command(
             aliases=["pin"],
-            help=database["faqData"]["Pins"]["help"],
-            brief=database["faqData"]["Pins"]["help"]
+            help=database["faqdata"]["pins"]["help"],
+            brief=database["faqdata"]["pins"]["help"]
     )
     async def pins(self, ctx):
         # Item to find
@@ -176,199 +190,199 @@ class Characters(commands.Cog):
         else:
             charDescription = "Click [here]("+charThread+") to go to "+charType.capitalize()
         charColor = int(data["color"],0)
-        embed=discord.Embed(title=character + " " + charType.capitalize(), url=charThread, description=charDescription, color=charColor)
+        embed=discord.Embed(title=character.capitalize() + " " + charType.capitalize(), url=charThread, description=charDescription, color=charColor)
         if "image" in data:
             embed.set_thumbnail(url=data["image"])
         return embed
 
     @commands.command(
-            help=database["characters"]["Narmaya"]["help"],
-            brief=database["characters"]["Narmaya"]["help"]
+            help=database["characters"]["narmaya"]["help"],
+            brief=database["characters"]["narmaya"]["help"]
     )
     async def narmaya(self, ctx):
         # Item to find
-        character = "Narmaya"
+        character = "narmaya"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Io"]["help"],
-            brief=database["characters"]["Io"]["help"]
+            help=database["characters"]["io"]["help"],
+            brief=database["characters"]["io"]["help"]
     )
     async def io(self, ctx):
         # Item to find
-        character = "Io"
+        character = "io"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
     
     @commands.command(
             aliases=["gran","djeeta"],
-            help=database["characters"]["Captain"]["help"],
-            brief=database["characters"]["Captain"]["help"]
+            help=database["characters"]["captain"]["help"],
+            brief=database["characters"]["captain"]["help"]
     )
     async def captain(self, ctx):
         # Item to find
-        character = "Captain"
+        character = "captain"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
     
     @commands.command(
-            help=database["characters"]["Katalina"]["help"],
-            brief=database["characters"]["Katalina"]["help"]
+            help=database["characters"]["katalina"]["help"],
+            brief=database["characters"]["katalina"]["help"]
     )
     async def katalina(self, ctx):
         # Item to find
-        character = "Katalina"
+        character = "katalina"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
     
     @commands.command(
-            help=database["characters"]["Rackam"]["help"],
-            brief=database["characters"]["Rackam"]["help"]
+            help=database["characters"]["rackam"]["help"],
+            brief=database["characters"]["rackam"]["help"]
     )
     async def rackam(self, ctx):
         # Item to find
-        character = "Rackam"
+        character = "rackam"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
     
     @commands.command(
-            help=database["characters"]["Eugen"]["help"],
-            brief=database["characters"]["Eugen"]["help"]
+            help=database["characters"]["eugen"]["help"],
+            brief=database["characters"]["eugen"]["help"]
     )
     async def eugen(self, ctx):
         # Item to find
-        character = "Eugen"
+        character = "eugen"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
     
     @commands.command(
-            help=database["characters"]["Rosetta"]["help"],
-            brief=database["characters"]["Rosetta"]["help"]
+            help=database["characters"]["rosetta"]["help"],
+            brief=database["characters"]["rosetta"]["help"]
     )
     async def rosetta(self, ctx):
         # Item to find
-        character = "Rosetta"
+        character = "rosetta"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Ferry"]["help"],
-            brief=database["characters"]["Ferry"]["help"]
+            help=database["characters"]["ferry"]["help"],
+            brief=database["characters"]["ferry"]["help"]
     )
     async def ferry(self, ctx):
         # Item to find
-        character = "Ferry"
+        character = "ferry"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
     
     @commands.command(
-            help=database["characters"]["Lancelot"]["help"],
-            brief=database["characters"]["Lancelot"]["help"]
+            help=database["characters"]["lancelot"]["help"],
+            brief=database["characters"]["lancelot"]["help"]
     )
     async def lancelot(self, ctx):
         # Item to find
-        character = "Lancelot"
+        character = "lancelot"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
     
     @commands.command(
-            help=database["characters"]["Percival"]["help"],
-            brief=database["characters"]["Percival"]["help"]
+            help=database["characters"]["percival"]["help"],
+            brief=database["characters"]["percival"]["help"]
     )
     async def percival(self, ctx):
         # Item to find
-        character = "Percival"
+        character = "percival"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Vane"]["help"],
-            brief=database["characters"]["Vane"]["help"]
+            help=database["characters"]["vane"]["help"],
+            brief=database["characters"]["vane"]["help"]
     )
     async def vane(self, ctx):
         # Item to find
-        character = "Vane"
+        character = "vane"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Siegfried"]["help"],
-            brief=database["characters"]["Siegfried"]["help"]
+            help=database["characters"]["siegfried"]["help"],
+            brief=database["characters"]["siegfried"]["help"]
     )
     async def siegfried(self, ctx):
         # Item to find
-        character = "Siegfried"
+        character = "siegfried"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Charlotta"]["help"],
-            brief=database["characters"]["Charlotta"]["help"]
+            help=database["characters"]["charlotta"]["help"],
+            brief=database["characters"]["charlotta"]["help"]
     )
     async def charlotta(self, ctx):
         # Item to find
-        character = "Charlotta"
+        character = "charlotta"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Yodarha"]["help"],
-            brief=database["characters"]["Yodarha"]["help"]
+            help=database["characters"]["yodarha"]["help"],
+            brief=database["characters"]["yodarha"]["help"]
     )
     async def yodarha(self, ctx):
         # Item to find
-        character = "Yodarha"
+        character = "yodarha"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Zeta"]["help"],
-            brief=database["characters"]["Zeta"]["help"]
+            help=database["characters"]["zeta"]["help"],
+            brief=database["characters"]["zeta"]["help"]
     )
     async def zeta(self, ctx):
         # Item to find
-        character = "Zeta"
+        character = "zeta"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Vaseraga"]["help"],
-            brief=database["characters"]["Vaseraga"]["help"]
+            help=database["characters"]["vaseraga"]["help"],
+            brief=database["characters"]["vaseraga"]["help"]
     )
     async def vaseraga(self, ctx):
         # Item to find
-        character = "Vaseraga"
+        character = "vaseraga"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Cagliostro"]["help"],
-            brief=database["characters"]["Cagliostro"]["help"]
+            help=database["characters"]["cagliostro"]["help"],
+            brief=database["characters"]["cagliostro"]["help"]
     )
     async def cagliostro(self, ctx):
         # Item to find
-        character = "Cagliostro"
+        character = "cagliostro"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Ghandagoza"]["help"],
-            brief=database["characters"]["Ghandagoza"]["help"]
+            help=database["characters"]["ghandagoza"]["help"],
+            brief=database["characters"]["ghandagoza"]["help"]
     )
     async def ghandagoza(self, ctx):
         # Item to find
-        character = "Ghandagoza"
+        character = "ghandagoza"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
     @commands.command(
-            help=database["characters"]["Id"]["help"],
-            brief=database["characters"]["Id"]["help"]
+            help=database["characters"]["id"]["help"],
+            brief=database["characters"]["id"]["help"]
     )
     async def id(self, ctx):
         # Item to find
-        character = "Id"
+        character = "id"
         await ctx.send(embed=self.getEmbed(character,"guide"))
         await ctx.send(embed=self.getEmbed(character,"thread"))
 
@@ -377,31 +391,48 @@ class CharBuild(commands.Cog):
         self.client = client
     
     def getBuild(self, character, charType):
-        charData = database["charBuild"]["Narmaya"][charType]
+        charData = database["charbuild"][character][charType]
         charColor = int(database["characters"][character]["color"],0)
         embed=discord.Embed(title=charData["title"], description=charData["notes"], color=charColor)
+        if "image" in database["characters"][character]:
+            embed.set_thumbnail(url=database["characters"][character]["image"])
         embed.set_image(url=charData["link"])
         return embed
 
 
     @commands.command(
-            alias=["narmbuild"],
-            help=database["charBuild"]["Narmaya"]["help"],
-            brief=database["charBuild"]["Narmaya"]["help"]
+            help=database["charbuild"]["help"],
+            brief=database["charbuild"]["help"]
     )
-    async def narmayabuild(self, ctx):
-        character = "Narmaya"
+    async def build(self, ctx):
         msgSplit = ctx.message.content.split()
         if len(msgSplit) > 1:
-            charType = msgSplit[1]
-            if charType not in database["charBuild"][character]:
+            character = msgSplit[1].lower()
+            if character not in database["charbuild"].keys():
+                await ctx.send(character + " is not supported.")
                 return
-            await ctx.send(embed=self.getBuild(character,charType))
-        else:
-            output = "```"
-            for item in database["charBuild"]["Narmaya"]:
+
+            if len(msgSplit) > 2:
+                charType = msgSplit[2]
+                if charType in database["charbuild"][character]:
+                    await ctx.send(embed=self.getBuild(character,charType))
+                    return
+
+            output = "```" + character.capitalize() + " Builds:\n"
+            for item in database["charbuild"][character]:
+                print(item)
                 if item.isnumeric():
-                    output += item + ": " + database["charBuild"]["Narmaya"][item]["title"] + " \n"
+                    print(output)
+                    output += item + ": " + database["charbuild"][character][item]["title"] + " \n"
             output += "Please input a number to pick your build```"
             await ctx.send(output)
+            return
+
+        output = "```"
+        for item in database["charbuild"]:
+            if item == "help":
+                continue
+            output += item + "\n"
+        output += "Please input a character to pick your build```"
+        await ctx.send(output)
 

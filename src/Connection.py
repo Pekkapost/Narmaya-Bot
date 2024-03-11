@@ -15,10 +15,10 @@ cwd = os.path.dirname(os.path.realpath(__file__))
 varFile = open(cwd + "/GBFRdiscord.json")
 varData = json.load(varFile)
 # Set Variables
-threadPrefix = varData["threadPrefix"]
 threadList = varData["threadList"]
 prefix = varData["prefix"]
 pingRoles = varData["pingRoles"]
+emoteThread = varData["emoteThread"]
 
 # Setup Client
 intents = discord.Intents.default()
@@ -38,6 +38,27 @@ async def on_command_error(ctx, error):
         return
     raise error
 
+@client.event
+async def on_raw_reaction_add(payload):
+    if payload.member.bot:
+        return
+    message = await client.get_channel(payload.channel_id).fetch_message(payload.message_id)
+    emote = payload.emoji
+    if str(emote) != emoteThread:
+        return
+    messageContent = message.content
+    mentions = message.raw_role_mentions
+    foundMention = False
+    for roleMention in mentions:
+        if roleMention in pingRoles:
+            foundMention = True
+        messageContent = messageContent.replace("<@&"+str(roleMention)+">","")
+    if foundMention:
+        title = message.author.name + "`s " + messageContent
+        if len(title) > 80:
+            title = title[:80]
+        await message.create_thread(name=title)
+
 # # On Message Recieved
 @client.event
 async def on_message(message):
@@ -47,18 +68,11 @@ async def on_message(message):
     if message.channel.id in threadList and message.channel.type == discord.ChannelType.text:
         mentions = message.raw_role_mentions
         foundMention = False
-        messageContent = message.content
-        if threadPrefix in messageContent:
-            messageContent = messageContent.replace(threadPrefix,"")
         for roleMention in mentions:
             if roleMention in pingRoles:
-                messageContent = messageContent.replace("<@&"+str(roleMention)+">","")
                 foundMention = True
         if foundMention:
-            title = message.author.name + "`s " + messageContent
-            if len(title) > 80:
-                title = title[:80]
-            await message.create_thread(name=title)
+            await message.add_reaction(emoteThread)
     # Wait for commands
     await client.process_commands(message)
 
@@ -69,6 +83,5 @@ async def main():
         await client.add_cog(Characters(client))
         await client.add_cog(CharBuild(client))
         await client.start(getToken())
-        await client.change_presence(activity=discord.Game(name="n!"))
 
 asyncio.run(main())
