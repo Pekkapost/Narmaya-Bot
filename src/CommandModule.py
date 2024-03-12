@@ -420,9 +420,7 @@ class CharBuild(commands.Cog):
 
             output = "```" + character.capitalize() + " Builds:\n"
             for item in database["charbuild"][character]:
-                print(item)
                 if item.isnumeric():
-                    print(output)
                     output += item + ": " + database["charbuild"][character][item]["title"] + " \n"
             output += "Please input a number to pick your build```"
             await ctx.send(output)
