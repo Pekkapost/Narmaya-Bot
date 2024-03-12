@@ -1,6 +1,6 @@
 from BotConstants import getToken
 from HelpModule import MyHelpCommand
-from CommandModule import FAQ, FarmData, Characters, CharBuild
+from CommandModule import FAQ, FarmData, Characters, CharBuild, Meme
 import discord
 from discord.ext import commands
 from discord.ext.commands import CommandNotFound
@@ -82,6 +82,7 @@ async def main():
         await client.add_cog(FarmData(client))
         await client.add_cog(Characters(client))
         await client.add_cog(CharBuild(client))
+        await client.add_cog(Meme(client))
         await client.start(getToken())
 
 asyncio.run(main())

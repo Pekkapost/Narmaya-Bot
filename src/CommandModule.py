@@ -98,13 +98,13 @@ class FAQ(commands.Cog):
         return embed
 
     @commands.command(
-            aliases=["sigilfarm","sigil"],
-            help=database["faqdata"]["sigils"]["help"],
-            brief=database["faqdata"]["sigils"]["help"]
+            aliases=["sigildroptable","sigil_drop","sigildrop"],
+            help=database["faqdata"]["sigildrops"]["help"],
+            brief=database["faqdata"]["sigildrops"]["help"]
     )
-    async def sigil_farm(self, ctx):
+    async def sigil_drop_table(self, ctx):
         # Item to find
-        item = "sigils"
+        item = "sigildrops"
         await ctx.send(embed=self.getEmbed(item))
     
     @commands.command(
@@ -138,11 +138,11 @@ class FAQ(commands.Cog):
     
 
     @commands.command(
-            aliases=["curioratetable","curiorate","curio_rate","curiodrops","curio_drops"],
+            aliases=["curiodroptable","curio_drop","curiodrop"],
             help=database["faqdata"]["curiodrops"]["help"],
             brief=database["faqdata"]["curiodrops"]["help"]
     )
-    async def curio_rate_table(self, ctx):
+    async def curio_drop_table(self, ctx):
         # Item to find
         item = "curiodrops"
         await ctx.send(embed=self.getEmbed(item))
@@ -436,3 +436,18 @@ class CharBuild(commands.Cog):
         output += "Please input a character to pick your build```"
         await ctx.send(output)
 
+class Meme(commands.Cog):
+    def __init__(self, client):
+        self.client = client
+
+    def getMeme(self, item):
+        meme = database["meme"]
+        return meme[item]["link"]
+
+    @commands.command(
+            help=database["meme"]["grind"]["help"],
+            brief=database["meme"]["grind"]["help"]
+    )
+    async def grind(self, ctx):
+        item = "grind"
+        await ctx.send(self.getMeme(item))

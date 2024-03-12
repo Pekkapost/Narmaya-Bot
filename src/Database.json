@@ -57,7 +57,7 @@
             "link": "https://discord.com/channels/1201230973388456088/1205341744665989160/1210415854324285470",
             "help": "This gives a link to the super soldiers character thread."
         },
-        "sigils": {
+        "sigildrops": {
             "title": "Sigil Drop Table",
             "data": "Basic guide on where to farm Sigils from Quests.\n(Credits to Redicular)",
             "link": "https://www.reddit.com/r/GranblueFantasyRelink/comments/1aqtuno/v_sigil_farming_locations/",
@@ -99,6 +99,7 @@
             "thread": "https://discord.com/channels/1201230973388456088/1205013424770130001",
             "guide": "https://discord.com/channels/1201230973388456088/1208184601407655966",
             "color": "0xfda2f5",
+            "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_djeeta.png?20240309112351",
             "help": "This gives a link to the Captain Character Thread and Guide."
         },
         "katalina": {
@@ -234,5 +235,11 @@
             }
         },
         "help": "This displays example builds."
+    },
+    "meme": {
+        "grind": {
+            "link": "https://cdn.discordapp.com/attachments/1201305336607424602/1217256844762939453/GIdlF7-bkAAvQC-.png?ex=66035dc7&is=65f0e8c7&hm=cebb5717e76ec07ea841a5d18cfd85baf0ede2c64d574a7edaea974f5f7d9b22&",
+            "help": "The grind begins."
+        }
     }
 }
