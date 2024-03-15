@@ -80,8 +80,8 @@ class FarmData(commands.Cog):
 
     @commands.command(
         aliases=["weaponmaterials","weaponmats","wepmats"],
-        help=database["faqdata"]["weaponmaterials"]["help"],
-        brief=database["faqdata"]["weaponmaterials"]["help"]
+        help=database["farmdata"]["weaponmaterials"]["help"],
+        brief=database["farmdata"]["weaponmaterials"]["help"]
     )
     async def weapon_materials(self, ctx):
         # Item to find
