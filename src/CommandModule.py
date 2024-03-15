@@ -78,6 +78,16 @@ class FarmData(commands.Cog):
         item = "curios"
         await ctx.send(embed=self.getEmbed(item))
 
+    @commands.command(
+        aliases=["weaponmaterials","weaponmats","wepmats"],
+        help=database["faqdata"]["weaponmaterials"]["help"],
+        brief=database["faqdata"]["weaponmaterials"]["help"]
+    )
+    async def weapon_materials(self, ctx):
+        # Item to find
+        item = "weaponmaterials"
+        await ctx.send(embed=self.getEmbed(item))
+
 class FAQ(commands.Cog):
     def __init__(self, client):
         self.client = client
@@ -176,16 +186,6 @@ class FAQ(commands.Cog):
     async def pins(self, ctx):
         # Item to find
         await ctx.send("Read the Pins")
-    
-    @commands.command(
-            aliases=["weaponmaterials","weaponmats","wepmats"],
-            help=database["faqdata"]["weaponmaterials"]["help"],
-            brief=database["faqdata"]["weaponmaterials"]["help"]
-    )
-    async def weapon_materials(self, ctx):
-        # Item to find
-        item = "weaponmaterials"
-        await ctx.send(embed=self.getEmbed(item))
 
 class Characters(commands.Cog):
     def __init__(self, client):
