@@ -29,6 +29,12 @@
             "data": "Read this document on how Curios work.\n(Credits to GL1TCH3D)",
             "link": "https://gl1tch3d.com/everything-to-know-about-curios/",
             "help": "This explains how Curios work."
+        },
+        "weaponmaterials":{
+            "title": "Weapon Materials",
+            "data": "Read this document on how how many weapon materials are needed to upgrade your weapon.",
+            "link": "https://discord.com/channels/1201230973388456088/1201305336607424602/1216804163682566194",
+            "help": "This gives a list of the weapon materials you will need."
         }
     },
     "faqdata": {
