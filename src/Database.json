@@ -112,24 +112,28 @@
             "thread": "https://discord.com/channels/1201230973388456088/1203456369026535424",
             "guide": "https://discord.com/channels/1201230973388456088/1207410971082100736",
             "color": "0xfda2f5",
+            "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_katalina.png?20240314052146",
             "help": "This gives a link to the Katalina Character Thread and Guide."
         },
         "rackam": {
             "thread": "https://discord.com/channels/1201230973388456088/1202998868837404712",
             "guide": "https://discord.com/channels/1201230973388456088/1207819487240257546",
             "color": "0xfda2f5",
+            "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_rackam.png?20240314052146",
             "help": "This gives a link to the Rackam Character Thread and Guide."
         },
         "eugen": {
             "thread": "https://discord.com/channels/1201230973388456088/1203188229629812816",
             "guide": "https://imgur.com/a/LobuRKb",
             "color": "0xfda2f5",
+            "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_eugen.png?20240314052146",
             "help": "This gives a link to the Eugen Character Thread and Guide."
         },
         "rosetta": {
             "thread": "https://discord.com/channels/1201230973388456088/1201730834143387678",
             "guide": "https://discord.com/channels/1201230973388456088/1207392595295342592",
             "color": "0xfda2f5",
+            "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_rosetta.png?20240314052146",
             "help": "This gives a link to the Rosetta Character Thread and Guide."
         },
         "ferry": {
@@ -218,7 +222,7 @@
                 "notes": "This is a tap setsuna build.\nLOTL can be replaced with Glass Cannon.\nDo not consider this build if you want utility sigils without Supplementary V+."
             },
             "3":{
-                "title": "Lucilius Build.",
+                "title": "Post Lucilius Build.",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218396221207609424/Narm3.PNG?ex=660782e7&is=65f50de7&hm=882a17c2808197e8c3c95b5a21e29972d13f3790823904cd07f91ada5bda0164&",
                 "notes": "This is a `perfect` build with Supplementary V+.\nYou must sacrifice utility sigils to run Alpha, Beta, or Gamma.\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
             }
@@ -238,6 +242,23 @@
                 "title": "Firm Stance Build.",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218653824034668714/Kat3.PNG?ex=660872d1&is=65f5fdd1&hm=d4b0bf256dc34d61a5a1a44feb909f3a5549a63b740a312907713107d2ebd2c7&",
                 "notes": "This build is around Firm Stance.\nYou will drop Ares if you get pushed back by the boss, which you can avoid with lv 20 Firm Stance.\n(Credits to Noa)"
+            }
+        },
+        "zeta": {
+            "1":{
+                "title": "Safe Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218663371205771304/Zeta1.PNG?ex=66087bb5&is=65f606b5&hm=7316a140fc9d0ce59fc0818779048b730fa53b863f936c155e0a42d4c67e5cd5&",
+                "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Aristocrat)"
+            },
+            "2":{
+                "title": "DPS Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218664701148266646/Zeta2.PNG?ex=66087cf2&is=65f607f2&hm=d44c0da6f575e68520f4d775a6e4255c6c8a075cf7ad3ff6ea4c72e4c05000c3&",
+                "notes": "This build is designed to maximize dps.\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Aristocrat)"
+            },
+            "3":{
+                "title": "Post Lucilius Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218664722916970686/Zeta3.PNG?ex=66087cf7&is=65f607f7&hm=524a0c4df545443e759e9a8e0ff266b7f6ed6aa54a6e5f843035981430aba89c&",
+                "notes": "The defensive utility on Supplementary V+ are not required.\n(Credits to Lucilius)"
             }
         },
         "help": "This displays example builds."
