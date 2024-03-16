@@ -436,11 +436,12 @@ class CharBuild(commands.Cog):
             await ctx.send(output)
             return
 
-        output = "```"
+        output = "```\n"
         for item in database["charbuild"]:
+            print(item)
             if item == "help":
                 continue
-            output += item + "\n"
+            output += item.capitalize() + "\n"
         output += "Please input a character to pick your build```"
         await ctx.send(output)
 
