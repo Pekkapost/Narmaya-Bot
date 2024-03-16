@@ -229,36 +229,36 @@
         }, 
         "katalina": {
             "1":{
-                "title": "Safe Build.",
+                "title": "Safe Build",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218400569832767548/Kat1.PNG?ex=660786f4&is=65f511f4&hm=ac2bb151eafefe8a5f624b3d300f44bc6f47de99696c31f5664fa3cb446d5335&",
                 "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful so you dont drop Ares.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Noa)"
             },
             "2":{
-                "title": "DPS Build.",
+                "title": "DPS Build",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218653809861984307/Kat2.PNG?ex=660872cd&is=65f5fdcd&hm=80a9f72332127bf417d13483232bc8772790f14982601c1fc39ba81236030ff0&",
                 "notes": "This build is designed to maximize dps.\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Noa)"
             },
             "3":{
-                "title": "Firm Stance Build.",
+                "title": "Firm Stance Build",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218653824034668714/Kat3.PNG?ex=660872d1&is=65f5fdd1&hm=d4b0bf256dc34d61a5a1a44feb909f3a5549a63b740a312907713107d2ebd2c7&",
                 "notes": "This build is around Firm Stance.\nYou will drop Ares if you get pushed back by the boss, which you can avoid with lv 20 Firm Stance.\n(Credits to Noa)"
             }
         },
         "zeta": {
             "1":{
-                "title": "Safe Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218697221160173568/Zeta1.PNG?ex=66089b3b&is=65f6263b&hm=4d001f14ba7a47e543edc616e09c2cd01b8331bfc5c6dc663a60d0b4b5e98831&",
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218702657464701068/Zeta1.PNG?ex=6608a04b&is=65f62b4b&hm=bc3b10b9b2901777da81881caa9ee73723710a5ee3266b89fc477cf27c3a5faa&",
                 "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Aristocrat)"
             },
             "2":{
-                "title": "DPS Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218697205301383319/Zeta2.PNG?ex=66089b38&is=65f62638&hm=35c2d9620b29c7a8bc3f8abae1066432d33791d33bf998bf7f7c5f7c7aa1bb5e&",
-                "notes": "This build is designed to maximize dps.\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Aristocrat)"
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218702671628996688/Zeta2.PNG?ex=6608a04f&is=65f62b4f&hm=de32419ca2a3e5a29c2f34acb3ea516cbab458bdc4bd4138c07d2866ad159733&",
+                "notes": "This build is designed to maximize dps.\nCrimson's Flight is optional.\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Aristocrat)"
             },
             "3":{
-                "title": "Post Lucilius Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218691410170216560/Zeta3.PNG?ex=660895d2&is=65f620d2&hm=3ea0f1c7b71e27e62a4360aacade1bc2cb31c87c572d358483cb0c21b3d25e41&",
-                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything.\n(Credits to Lucilius)"
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218702682924253224/Zeta3.PNG?ex=6608a052&is=65f62b52&hm=084894e090d40f9927c5827a660e7af333076d60c49d8dbed7efce3a9bdc9441&",
+                "notes": "Crimson's Flight is optional.\nThe utility on Supplementary V+ are not required and can be swapped around with anything.\n(Credits to Lucilius)"
             }
         },
         "help": "This displays example builds."
