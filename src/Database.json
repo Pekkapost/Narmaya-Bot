@@ -247,18 +247,18 @@
         "zeta": {
             "1":{
                 "title": "Safe Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218663371205771304/Zeta1.PNG?ex=66087bb5&is=65f606b5&hm=7316a140fc9d0ce59fc0818779048b730fa53b863f936c155e0a42d4c67e5cd5&",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218690678809432115/Zeta1.PNG?ex=66089524&is=65f62024&hm=1ac92bc93f81a8dd96159b00cd9b9787dcc8333ece60db1d31125d95bd785de3&",
                 "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Aristocrat)"
             },
             "2":{
                 "title": "DPS Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218664701148266646/Zeta2.PNG?ex=66087cf2&is=65f607f2&hm=d44c0da6f575e68520f4d775a6e4255c6c8a075cf7ad3ff6ea4c72e4c05000c3&",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218690692491247626/Zeta2.PNG?ex=66089527&is=65f62027&hm=1ca530a55c23c7d64c199e9c0ed6ed39158834691f3c76eb241448c4b6769ba5&",
                 "notes": "This build is designed to maximize dps.\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Aristocrat)"
             },
             "3":{
                 "title": "Post Lucilius Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218664722916970686/Zeta3.PNG?ex=66087cf7&is=65f607f7&hm=524a0c4df545443e759e9a8e0ff266b7f6ed6aa54a6e5f843035981430aba89c&",
-                "notes": "The defensive utility on Supplementary V+ are not required.\n(Credits to Lucilius)"
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218690706185388052/Zeta3.PNG?ex=6608952a&is=65f6202a&hm=1bd18fe9d862fe6eb2844cbc14632e478c8bc120588416a1e4cb7f256756154d&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything.\n(Credits to Lucilius)"
             }
         },
         "help": "This displays example builds."
