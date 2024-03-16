@@ -208,36 +208,36 @@
     "charbuild": {
         "narmaya": {
             "1":{
-                "title": "Example Mid Game Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216535725143621632/narm1.PNG?ex=6600be2f&is=65ee492f&hm=ce9d9bc47d73acdf7b8108c65cac2eb763119cd031886f01cbfda319ed4e8e5c&",
-                "notes": "This is a lower damage build designed for survivability.\nNote: This is just an example."
+                "title": "Safe Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395680951762965/Narm1.PNG?ex=66078267&is=65f50d67&hm=d2900e83d8e179ddf31f5fc3190ed950304490bc69ab99b3f9afd488ff0d3a6f&",
+                "notes": "This build is designed for survivability.\nThis is a generic catch all build, meant for most players.\nAll secondary sigils and wrighstone here are flexible."
             },
             "2":{
-                "title": "Example End Game Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216537051080556695/narm2.PNG?ex=6600bf6b&is=65ee4a6b&hm=e4d0042ccb97c9a88faa5000188c7f6bcef38f19fb691777ea1033ade9bda043&",
-                "notes": "This is a tap setsuna build with Glass Cannon (GC).\nReplace GC with linked together if you do not want it.\nTry to get a GC/SUP with quick cooldown if possible.\nNote: This is just an example."
+                "title": "Tap Setsuna DPS Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395885248188516/Narm2.PNG?ex=66078297&is=65f50d97&hm=ad05e33afbee626ef8770f0a0be5aa4c1a2a7a7f488b9484e9c80ee6a9f73b5d&",
+                "notes": "This is a tap setsuna build.\nLOTL can be replaced with Glass Cannon.\nDo not consider this build if you want utility sigils without Supplementary V+."
             },
             "3":{
-                "title": "Example Perfect Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216537692922187796/tmpd0z_n2zq.PNG?ex=6600c004&is=65ee4b04&hm=4f9604e56689ab4ad8b3973cd2e05c0cf9f9b6066a5000c33059d8af86468aed&",
-                "notes": "This is a 'perfect' build with SUP V+ and GC V+.\nNote: This is just an example."
+                "title": "Lucilius Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218396221207609424/Narm3.PNG?ex=660782e7&is=65f50de7&hm=882a17c2808197e8c3c95b5a21e29972d13f3790823904cd07f91ada5bda0164&",
+                "notes": "This is a `perfect` build with Supplementary V+.\nYou must sacrifice utility sigils to run Alpha, Beta, or Gamma.\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
             }
-        },
-        "zeta": {
+        }, 
+        "katalina": {
             "1":{
-                "title": "Example Mid Game Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216535725143621632/narm1.PNG?ex=6600be2f&is=65ee492f&hm=ce9d9bc47d73acdf7b8108c65cac2eb763119cd031886f01cbfda319ed4e8e5c&",
-                "notes": "This is a lower damage build designed for survivability.\nNote: This is just an example."
+                "title": "Safe Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218400569832767548/Kat1.PNG?ex=660786f4&is=65f511f4&hm=ac2bb151eafefe8a5f624b3d300f44bc6f47de99696c31f5664fa3cb446d5335&",
+                "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful so you dont drop Ares.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Noa)"
             },
             "2":{
-                "title": "Example End Game Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216537051080556695/narm2.PNG?ex=6600bf6b&is=65ee4a6b&hm=e4d0042ccb97c9a88faa5000188c7f6bcef38f19fb691777ea1033ade9bda043&",
-                "notes": "This is a tap setsuna build with Glass Cannon (GC).\nReplace GC with linked together if you do not want it.\nTry to get a GC/SUP with quick cooldown if possible.\nNote: This is just an example."
+                "title": "DPS Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218400586882355291/Kat2.PNG?ex=660786f8&is=65f511f8&hm=b2c15a58450b4f3d75aae7b960100f8ebff872315828bf8e471d7f7cfbc42327&",
+                "notes": "This build is designed to maximize dps.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
             },
             "3":{
-                "title": "Example Perfect Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1216537692922187796/tmpd0z_n2zq.PNG?ex=6600c004&is=65ee4b04&hm=4f9604e56689ab4ad8b3973cd2e05c0cf9f9b6066a5000c33059d8af86468aed&",
-                "notes": "This is a 'perfect' build with SUP V+ and GC V+.\nNote: This is just an example."
+                "title": "Firm Stance Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218403183588806676/Kat3.PNG?ex=66078963&is=65f51463&hm=1213322b6735dc8cfe1343be338f83392c8698f038a9424d4aa9b0f90aca2dda&",
+                "notes": "This build is around Firm Stance.\nYou will drop Ares if you get pushed back by the boss, which you can avoid with lv 20 Firm Stance."
             }
         },
         "help": "This displays example builds."
