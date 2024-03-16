@@ -232,12 +232,12 @@
             "2":{
                 "title": "DPS Build.",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218400586882355291/Kat2.PNG?ex=660786f8&is=65f511f8&hm=b2c15a58450b4f3d75aae7b960100f8ebff872315828bf8e471d7f7cfbc42327&",
-                "notes": "This build is designed to maximize dps.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+                "notes": "This build is designed to maximize dps.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Noa)"
             },
             "3":{
                 "title": "Firm Stance Build.",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218403183588806676/Kat3.PNG?ex=66078963&is=65f51463&hm=1213322b6735dc8cfe1343be338f83392c8698f038a9424d4aa9b0f90aca2dda&",
-                "notes": "This build is around Firm Stance.\nYou will drop Ares if you get pushed back by the boss, which you can avoid with lv 20 Firm Stance."
+                "notes": "This build is around Firm Stance.\nYou will drop Ares if you get pushed back by the boss, which you can avoid with lv 20 Firm Stance.\n(Credits to Noa)"
             }
         },
         "help": "This displays example builds."
