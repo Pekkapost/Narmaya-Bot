@@ -231,12 +231,12 @@
             "2":{
                 "title": "Tap Setsuna DPS Build.",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395885248188516/Narm2.PNG?ex=66078297&is=65f50d97&hm=ad05e33afbee626ef8770f0a0be5aa4c1a2a7a7f488b9484e9c80ee6a9f73b5d&",
-                "notes": "This is a tap setsuna build.\nLOTL can be replaced with Glass Cannon.\nDo not consider this build if you want utility sigils without Supplementary V+."
+                "notes": "This is a tap setsuna build.\nLOTL can be replaced with Glass Cannon.\nYou can replace 2x QCD for utility sigils but this is a massive damage loss."
             },
             "3":{
                 "title": "Post Lucilius Build.",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218396221207609424/Narm3.PNG?ex=660782e7&is=65f50de7&hm=882a17c2808197e8c3c95b5a21e29972d13f3790823904cd07f91ada5bda0164&",
-                "notes": "This is a `perfect` build with Supplementary V+.\nYou must sacrifice utility sigils to run Alpha, Beta, or Gamma.\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
+                "notes": "This is a `perfect` build with Supplementary V+.\n`You must sacrifice utility sigils to run Alpha, Beta, or Gamma.`\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
             }
         }, 
         "katalina": {
@@ -265,7 +265,7 @@
             "2":{
                 "title": "DPS Build",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218702671628996688/Zeta2.PNG?ex=6608a04f&is=65f62b4f&hm=de32419ca2a3e5a29c2f34acb3ea516cbab458bdc4bd4138c07d2866ad159733&",
-                "notes": "This build is designed to maximize dps.\nCrimson's Flight is optional.\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Aristocrat)"
+                "notes": "This build is designed to maximize dps.\n`Crimson's Flight is optional.`\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Aristocrat)"
             },
             "3":{
                 "title": "Post Lucilius Build",
@@ -282,7 +282,7 @@
             "2":{
                 "title": "DPS Build",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218782187445424158/Cag2.PNG?ex=6608ea5d&is=65f6755d&hm=b4dd1cc21066519e8a76fb248a13d6e534951ea5418940ff41e24794a171b71b&",
-                "notes": "This build is designed to maximize dps.\n3x QCD is not needed, replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
             },
             "3":{
                 "title": "Post Lucilius Build",
