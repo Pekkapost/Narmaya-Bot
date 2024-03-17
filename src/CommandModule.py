@@ -438,7 +438,6 @@ class CharBuild(commands.Cog):
 
         output = "```\n"
         for item in database["charbuild"]:
-            print(item)
             if item == "help":
                 continue
             output += item.capitalize() + "\n"
