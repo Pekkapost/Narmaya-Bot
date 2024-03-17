@@ -261,6 +261,23 @@
                 "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything.\n(Credits to Aristocrat)"
             }
         },
+        "cagliostro": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218778879251189790/Cag1.PNG?ex=6608e748&is=65f67248&hm=31bef1cef032ded8d58a9f9c086861e0a320b46124335301602b3f0df1489b89&",
+                "notes": "This build is designed for survivability.\nThis relies on 20% Skill Damage OM to cap Pain Train."
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218778898473422868/Cag2.PNG?ex=6608e74d&is=65f6724d&hm=650f4f8f6031939972ec6f0e69df91a92f35cd7aa0c91aba5ba16dfee54b3d78&",
+                "notes": "This build is designed to maximize dps.\n3x QCD is not needed, replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218778917553438830/Cag3.PNG?ex=6608e751&is=65f67251&hm=4ec6c7d24084637e996ddadf9ed48f2a859e91e57d6bb918bf0d07412dd0ad33&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
+            }
+        },
         "help": "This displays example builds."
     },
     "meme": {
