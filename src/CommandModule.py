@@ -461,5 +461,5 @@ class Meme(commands.Cog):
         await ctx.send(self.getMeme(item))
     
     @commands.command()
-    async def setdelay(ctx):
+    async def setdelay(self, ctx):
         await discord.get_channel(1205935609773039656).channel.edit(slowmode_delay=0)
