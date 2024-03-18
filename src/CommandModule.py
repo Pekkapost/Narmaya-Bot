@@ -459,3 +459,7 @@ class Meme(commands.Cog):
     async def grind(self, ctx):
         item = "grind"
         await ctx.send(self.getMeme(item))
+    
+    @commands.command()
+    async def setdelay(ctx):
+        await discord.get_channel(1205935609773039656).channel.edit(slowmode_delay=0)
