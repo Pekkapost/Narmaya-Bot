@@ -167,6 +167,16 @@ class FAQ(commands.Cog):
         # Item to find
         item = "dpsmeter"
         await ctx.send(embed=self.getEmbed(item))
+
+    @commands.command(
+            aliases=["skillissue"],
+            help=database["faqdata"]["skillissue"]["help"],
+            brief=database["faqdata"]["skillissue"]["help"]
+    )
+    async def skill_issue(self, ctx):
+        # Item to find
+        item = "skillissue"
+        await ctx.send(embed=self.getEmbed(item))
     
     @commands.command(
             aliases=["damagecap","dmgcap","cap"],
