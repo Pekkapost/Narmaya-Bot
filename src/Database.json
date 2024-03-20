@@ -315,6 +315,23 @@
                 "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
+        "io": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153321235546163/Io1.PNG?ex=660de755&is=65fb7255&hm=896428546c8242137eb95b06dc08d68cd6479898424095870da3d727913f1120&",
+                "notes": "This build is designed for survivability."
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153333566668820/Io2.PNG?ex=660de758&is=65fb7258&hm=c5c553133575ac90623ed3269dd0292b4e90ac62ddd4c707b62b029e24c740a4&",
+                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153345663176855/Io3.PNG?ex=660de75a&is=65fb725a&hm=d1750c240e20188c778dd1d271a1b5e84bda946cae0db0796f3cd86a86bfa6a9&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
+            }
+        },
         "help": "This displays example builds."
     },
     "meme": {
