@@ -73,12 +73,14 @@
             "title": "DPS Meter",
             "data": "DPS Meter for Granblue Fantasy Relink.\nRead the github for instructions on how to install.\n(Credits to False Spring, Naoouo, and the team behind GBFR-ACT)",
             "link": "https://github.com/false-spring/gbfr-logs",
+            "image": "https://avatars.githubusercontent.com/u/60109619?v=4",
             "help": "This gives a link to install a dps meter."
         },
         "skillissue": {
             "title": "DPS Meter",
             "data": "DPS Meter for Granblue Fantasy Relink.\nRead the github for instructions on how to install.\n(Credits to Brunolm, Naoouo, and the team behind GBFR-ACT)",
             "link": "https://github.com/brunolm/gbfr-parser",
+            "image": "https://avatars.githubusercontent.com/u/706078?v=4",
             "help": "This gives a link to install a dps meter."
         },
         "damagecap": {
