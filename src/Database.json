@@ -293,17 +293,17 @@
         "charlotta": {
             "1":{
                 "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219800030148432042/Char1.PNG?ex=660c9e4d&is=65fa294d&hm=a56b134e35570cba6c681d08fc59420679f8a26ecbc1af73b9c280922372aa38&",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802363926282370/Char1.PNG?ex=660ca07a&is=65fa2b7a&hm=a49c8deca51536c72c48dbfdb5be616cee91ed7caeb4550cdafd0f4c1e76db76&",
                 "notes": "This build is designed for survivability."
             },
             "2":{
                 "title": "DPS Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219800078018019418/Char2.PNG?ex=660c9e59&is=65fa2959&hm=ba6d4e999bb3a39daaf3c6377195901542e22e12dbbd373747324397c3905983&",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802375985037443/Char2.PNG?ex=660ca07d&is=65fa2b7d&hm=41463653d7a06df593f62da92d23e0faefd49f8288cf2566e8de5c24effb381d&",
                 "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
             },
             "3":{
                 "title": "Post Lucilius Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219800092966649896/Char3.PNG?ex=660c9e5c&is=65fa295c&hm=5fa6010755e53cf6cf0ab6c3cdb701193227cc0676da5d0f7b25164558cc1bee&",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802386999148544/Char3.PNG?ex=660ca07f&is=65fa2b7f&hm=9abb76010f1f291cb942c4f26183c8f5415d85c9f23878c2946e3656bbb727e4&",
                 "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
