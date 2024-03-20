@@ -332,6 +332,23 @@
                 "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
+        "vaseraga": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220156766096982026/Vas1.PNG?ex=660dea8a&is=65fb758a&hm=8cb02d8c68ce55140d9217968bb816406ed50d7aeab89e5698540c1859af40bb&",
+                "notes": "This build is designed for survivability.\n(Credits to justindeadblast)"
+            },
+            "2":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220156780148035705/Vas2.PNG?ex=660dea8d&is=65fb758d&hm=020e28991d58917d923ba0546b0b05c9491dc7743abee0a312ab556e7a1d2871&",
+                "notes": "You can slot in more defensive sigils on your Supplementary V+ if you get them.\n(Credits to justindeadblast)"
+            },
+            "3":{
+                "title": "Post Lucilius Build (Perfect)",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220156792521359430/Vas3.PNG?ex=660dea90&is=65fb7590&hm=629ec3d800f53158c57f3a794890dd317b2a5ebbee8f2bcf649163e06dec42d0&",
+                "notes": "All utility is optional and can be swapped around as needed.\n(Credits to justindeadblast)"
+            }
+        },
         "help": "This displays example builds."
     },
     "meme": {
