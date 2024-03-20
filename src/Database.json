@@ -290,6 +290,23 @@
                 "notes": "You can swap Beta with Alpha for a damage loss if you value 3% SBA gain.\nThe utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
+        "charlotta": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219800030148432042/Char1.PNG?ex=660c9e4d&is=65fa294d&hm=a56b134e35570cba6c681d08fc59420679f8a26ecbc1af73b9c280922372aa38&",
+                "notes": "This build is designed for survivability."
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219800078018019418/Char2.PNG?ex=660c9e59&is=65fa2959&hm=ba6d4e999bb3a39daaf3c6377195901542e22e12dbbd373747324397c3905983&",
+                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219800092966649896/Char3.PNG?ex=660c9e5c&is=65fa295c&hm=5fa6010755e53cf6cf0ab6c3cdb701193227cc0676da5d0f7b25164558cc1bee&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
+            }
+        },
         "help": "This displays example builds."
     },
     "meme": {
