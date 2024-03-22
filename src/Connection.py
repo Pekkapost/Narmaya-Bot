@@ -20,6 +20,7 @@ threadList = varData["threadList"]
 prefix = varData["prefix"]
 pingRoles = varData["pingRoles"]
 emoteThread = varData["emoteThread"]
+whitelist = varData["whitelist"]
 # Logger
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='output.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
@@ -89,6 +90,10 @@ class MyClient(Bot):
             archivedThreads = [athread async for athread in currentChannel.archived_threads()]
             itemList = [threads, archivedThreads]
             for item in itertools.chain(*itemList):
+                print(item.id)
+                if item.id in whitelist:
+                    print("Skipping: " + item.id)
+                    continue
                 try:
                     messages = [message async for message in item.history(limit=1)]
                     newtime = (datetime.now(timezone.utc) - messages[0].created_at)
