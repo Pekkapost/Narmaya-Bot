@@ -82,7 +82,10 @@ class MyClient(Bot):
             threads = currentChannel.threads
             print(threads)
             for item in threads:
-                message = await item.fetch_message(item.last_message_id)
+                try:
+                    message = await item.fetch_message(item.last_message_id)
+                except Exception as e:
+                    print("Exception: " + e)
                 newtime = (message.created_at - datetime.now(timezone.utc))
                 print(newtime.total_seconds())
                 if newtime.total_seconds() < (-1 * (60 * 60 * 1)):
