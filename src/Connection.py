@@ -82,8 +82,8 @@ class MyClient(Bot):
             try:
                 currentChannel = await self.fetch_channel(each)
             except Exception as e:
-                print("Could not find channel")
-                logger.error(e)
+                logger.warning("Attempting to get " + each)
+                logger.warning(e)
                 continue
             threads = currentChannel.threads
             # archivedThreads = await currentChannel.archived_threads()
@@ -97,6 +97,7 @@ class MyClient(Bot):
                         await item.delete()
                 except Exception as e:
                     print("Could not find message in thread")
+                    logger.error("Trying to find " + item.last_message_id)
                     logger.error(e)
                     pass
 
