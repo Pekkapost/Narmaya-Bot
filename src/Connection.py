@@ -8,6 +8,7 @@ import os
 import asyncio
 from discord.ext import commands, tasks
 from datetime import datetime, timezone
+import logging
 
 # Load Variables
 cwd = os.path.dirname(os.path.realpath(__file__))
@@ -18,6 +19,9 @@ threadList = varData["threadList"]
 prefix = varData["prefix"]
 pingRoles = varData["pingRoles"]
 emoteThread = varData["emoteThread"]
+# Logger
+logger = logging.getLogger(__name__)
+logging.basicConfig(filename='output.log', encoding='utf-8', level=logging.DEBUG)
 
 class MyClient(Bot):
     def __init__(self, *args, **kwargs):
@@ -77,19 +81,18 @@ class MyClient(Bot):
             try:
                 currentChannel = await self.fetch_channel(each)
             except Exception as e:
-                # print("Exception: " + e)
+                logger.error(e)
                 continue
             threads = currentChannel.threads
-            print(threads)
             for item in threads:
                 try:
                     message = await item.fetch_message(item.last_message_id)
                     newtime = (message.created_at - datetime.now(timezone.utc))
-                    print(newtime.total_seconds())
                     if newtime.total_seconds() < (-1 * (60 * 60 * 1)):
+                        print("Deleting: "+ item.name)
                         await item.delete()
                 except Exception as e:
-                    # print("Exception: " + e)
+                    logger.error(e)
                     pass
 
     @thread_cleanup.before_loop
