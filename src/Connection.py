@@ -82,8 +82,8 @@ class MyClient(Bot):
             try:
                 currentChannel = await self.fetch_channel(each)
             except Exception as e:
-                logger.warning("Attempting to get " + each)
-                logger.warning(e)
+                # logger.error("Attempting to get " + each)
+                # logger.error(e)
                 continue
             threads = currentChannel.threads
             # archivedThreads = await currentChannel.archived_threads()
