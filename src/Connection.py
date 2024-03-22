@@ -75,7 +75,7 @@ class MyClient(Bot):
         # Wait for command
         await self.process_commands(message)
 
-    @tasks.loop(minutes=1)
+    @tasks.loop(hours=1)
     async def thread_cleanup(self):
         for each in threadList:
             # Possible to fail to get channel
@@ -96,6 +96,10 @@ class MyClient(Bot):
                         print("Deleting: "+ item.name)
                         await item.delete()
                 except Exception as e:
+                    print("Finding Messages")
+                    messages = [message async for message in item.history()]
+                    for each in message:
+                        print(each)
                     print("Could not find message in thread")
                     logger.error("Trying to find " + str(item.last_message_id))
                     logger.error(e)
