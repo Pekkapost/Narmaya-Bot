@@ -90,7 +90,6 @@ class MyClient(Bot):
             archivedThreads = [athread async for athread in currentChannel.archived_threads()]
             itemList = [threads, archivedThreads]
             for item in itertools.chain(*itemList):
-                print(item.id)
                 if item.id in whitelist:
                     print("Skipping: " + str(item.id))
                     continue
