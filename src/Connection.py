@@ -92,7 +92,7 @@ class MyClient(Bot):
             for item in itertools.chain(*itemList):
                 print(item.id)
                 if item.id in whitelist:
-                    print("Skipping: " + item.id)
+                    print("Skipping: " + str(item.id))
                     continue
                 try:
                     messages = [message async for message in item.history(limit=1)]
