@@ -9,6 +9,7 @@ import asyncio
 from discord.ext import commands, tasks
 from datetime import datetime, timezone
 import logging
+import itertools
 
 # Load Variables
 cwd = os.path.dirname(os.path.realpath(__file__))
@@ -81,10 +82,12 @@ class MyClient(Bot):
             try:
                 currentChannel = await self.fetch_channel(each)
             except Exception as e:
+                print("Could not find channel")
                 logger.error(e)
                 continue
             threads = currentChannel.threads
-            for item in threads:
+            archivedThreads = await currentChannel.archived_threads()
+            for item in itertools.chain([threads,archivedThreads]):
                 try:
                     message = await item.fetch_message(item.last_message_id)
                     newtime = (message.created_at - datetime.now(timezone.utc))
@@ -92,6 +95,7 @@ class MyClient(Bot):
                         print("Deleting: "+ item.name)
                         await item.delete()
                 except Exception as e:
+                    print("Could not find message in thread")
                     logger.error(e)
                     pass
 
