@@ -98,7 +98,7 @@ class MyClient(Bot):
                 except Exception as e:
                     print("Finding Messages")
                     messages = [message async for message in item.history()]
-                    for each in message:
+                    for each in messages:
                         print(each)
                     print("Could not find message in thread")
                     logger.error("Trying to find " + str(item.last_message_id))
