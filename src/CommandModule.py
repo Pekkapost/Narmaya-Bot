@@ -127,7 +127,7 @@ class FAQ(commands.Cog):
         await ctx.send(embed=self.getEmbed(item))
     
     @commands.command(
-            aliases=["damagecalculator","calculator","calc"],
+            aliases=["damagecalculator","calculator","calc","damagecalc","dmgcalc"],
             help=database["faqdata"]["calculator"]["help"],
             brief=database["faqdata"]["calculator"]["help"]
     )
