@@ -442,7 +442,7 @@ class CharBuild(commands.Cog):
             for item in database["charbuild"][character]:
                 if item.isnumeric():
                     output += item + ": " + database["charbuild"][character][item]["title"] + " \n"
-            output += "Please input a number to pick your build```"
+            output += "Please use a number to pick your build\nEx: n!build narmaya 1```"
             await ctx.send(output)
             return
 
@@ -451,7 +451,7 @@ class CharBuild(commands.Cog):
             if item == "help":
                 continue
             output += item.capitalize() + "\n"
-        output += "Please input a character to pick your build```"
+        output += "Please use a character to display builds\nEx: n!build narmaya```"
         await ctx.send(output)
 
 class Meme(commands.Cog):
