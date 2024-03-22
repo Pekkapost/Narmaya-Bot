@@ -21,7 +21,7 @@ pingRoles = varData["pingRoles"]
 emoteThread = varData["emoteThread"]
 # Logger
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename='output.log', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(filename='output.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 class MyClient(Bot):
     def __init__(self, *args, **kwargs):
