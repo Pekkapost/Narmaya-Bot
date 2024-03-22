@@ -86,8 +86,9 @@ class MyClient(Bot):
                 logger.error(e)
                 continue
             threads = currentChannel.threads
-            archivedThreads = await currentChannel.archived_threads()
-            for item in itertools.chain([threads,archivedThreads]):
+            # archivedThreads = await currentChannel.archived_threads()
+            # for item in itertools.chain([threads,archivedThreads]):
+            for item in threads:
                 try:
                     message = await item.fetch_message(item.last_message_id)
                     newtime = (message.created_at - datetime.now(timezone.utc))
