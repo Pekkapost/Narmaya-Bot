@@ -91,8 +91,8 @@ class MyClient(Bot):
             for item in itertools.chain(*itemList):
                 try:
                     messages = [message async for message in item.history(limit=1)]
-                    newtime = (messages[0].created_at - datetime.now(timezone.utc))
-                    if newtime.total_seconds() < (-1 * (60 * 60 * 1)):
+                    newtime = (datetime.now(timezone.utc) - messages[0].created_at)
+                    if newtime.total_seconds() > (1 * (60 * 60 * 1)):
                         print("Deleting: "+ item.name)
                         await item.delete()
                 except Exception as e:
