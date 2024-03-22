@@ -349,6 +349,18 @@
                 "notes": "All utility is optional and can be swapped around as needed.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
             }
         },
+        "vane": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220608404972769310/Vane1.PNG?ex=660f8f29&is=65fd1a29&hm=70223e6be14c2146e61b895df82e3e5f6475003e21e4ff03c45ee90dc563a306&",
+                "notes": "This build is designed for survivability.\nWrighstone can be any utility.\n(Credits to Marcus)"
+            },
+            "2":{
+                "title": "Post Lucilius Build (Tank Build)",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220608418528890911/Vane2.PNG?ex=660f8f2c&is=65fd1a2c&hm=c853c1a1e4cc07cde65b062b3f287b33b835d87121867c5dba5624bdd52d01f6&",
+                "notes": "This build is designed for survivability.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them.\nWrighstone can be any utility.\n(Credits to Marcus)"
+            }
+        },
         "help": "This displays example builds."
     },
     "meme": {
