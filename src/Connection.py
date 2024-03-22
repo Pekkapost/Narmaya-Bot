@@ -36,7 +36,7 @@ class MyClient(Bot):
     async def on_command_error(self, ctx, error):
         if isinstance(error, CommandNotFound):
             return
-        print(error)
+        logger.error(error)
         raise error
     
     async def on_raw_reaction_add(self, payload):
