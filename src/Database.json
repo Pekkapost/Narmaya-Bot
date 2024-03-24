@@ -359,6 +359,28 @@
                 "title": "Post Lucilius Build (Tank Build)",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220608418528890911/Vane2.PNG?ex=660f8f2c&is=65fd1a2c&hm=c853c1a1e4cc07cde65b062b3f287b33b835d87121867c5dba5624bdd52d01f6&",
                 "notes": "This build is designed for survivability.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them.\nWrighstone can be any utility.\n(Credits to Marcus)"
+            },
+            "3":{
+                "title": "Post Lucilius Build (DPS Build)",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1221300042019897404/Vane3.PNG?ex=6612134c&is=65ff9e4c&hm=e3f2306e690e7aa3e278481cc6055eb8717b2084d99cec8a23574815d5a284e2&",
+                "notes": "All utility is optional and can be swapped around as needed.\nWrighstone can be any utility.\n(Credits to Marcus)"
+            }
+        },
+        "captain": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1221297639249940561/Cap1.PNG?ex=6612110f&is=65ff9c0f&hm=9b381512605ae0d21c9cad7be2d9a06854261bb169751015c5cecefc1aa02493&",
+                "notes": "This build is designed for survivability."
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1221297650410852372/Cap2.PNG?ex=66121112&is=65ff9c12&hm=8d802f1611a02ae85dd0736e5062cdc4f5134218528aa73cbc116797c71d6c6b&",
+                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1221297664105250836/Cap3.PNG?ex=66121115&is=65ff9c15&hm=cb72dc39c9ef6ad73cb8df5810b77a55fa0bc2f139515935862afc489d00f25c&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
         "help": "This displays example builds."
