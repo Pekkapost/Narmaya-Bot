@@ -1,3 +1,5 @@
 src/BotConstants.py
 src/__pycache__
+*__pycache__
+.venv
 output.log
