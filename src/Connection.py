@@ -1,14 +1,12 @@
+# Hidden Token
 from BotConstants import getToken
-from HelpModule import MyHelpCommand
+# Discord Py
 import discord
 from discord.ext.commands import Bot, CommandNotFound
-import json
-import os
-import asyncio
-from discord.ext import commands, tasks
+from discord.ext import tasks
+# Standard Imports
+import os, json, asyncio, itertools, logging
 from datetime import datetime, timezone
-import logging
-import itertools
 
 # Load Variables
 cwd = os.path.dirname(os.path.realpath(__file__))
