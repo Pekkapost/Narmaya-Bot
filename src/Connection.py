@@ -31,6 +31,9 @@ class MyClient(Bot):
 
     async def on_ready(self):
         print(f"We have logged in as {self.user}")
+        
+        ### Slash command sync function
+        await self.tree.sync()
 
     async def setup_hook(self) -> None:
         self.thread_cleanup.start()
@@ -75,6 +78,17 @@ class MyClient(Bot):
                 await message.add_reaction(emoteThread)
         # Wait for command
         await self.process_commands(message)
+        
+    async def init_cogs(self):
+        for file in os.listdir(f"{cwd}/cogs"):
+            if file.endswith(".py"):
+                name = file[0:-3]
+                try:
+                    await self.load_extension(f"cogs.{name}")
+                except Exception as e:
+                    print(f"Could not load {name} Cog!")
+                    logger.error(f"{name} cog failed :")
+                    logger.error(e)
 
     @tasks.loop(hours=1)
     async def thread_cleanup(self):
@@ -116,11 +130,7 @@ async def main():
     listening = discord.Activity(type=discord.ActivityType.listening, name="Narmaya Bot | " + prefix)
     client = MyClient(command_prefix=prefix, intents=intents, case_insensitive=True, activity=listening, status=discord.Status.online)
     async with client:
-        await client.add_cog(FAQ(client))
-        await client.add_cog(FarmData(client))
-        await client.add_cog(Characters(client))
-        await client.add_cog(CharBuild(client))
-        await client.add_cog(Meme(client))
+        await client.init_cogs()
         await client.start(getToken())
 
 asyncio.run(main())
