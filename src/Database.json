@@ -383,6 +383,13 @@
                 "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
+        "rackam": {
+            "1":{
+                "title": "Currently No Builds",
+                "link": "",
+                "notes": "Currently No Builds"
+            }
+        },
         "help": "This displays example builds."
     },
     "meme": {

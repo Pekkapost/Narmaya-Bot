@@ -137,6 +137,7 @@ class MyClient(Bot):
         await self.wait_until_ready()
 
 async def main():
+    # Setup bot
     intents = discord.Intents.default()
     intents.message_content = True
     listening = discord.Activity(type=discord.ActivityType.listening, name="Narmaya Bot | " + prefix)

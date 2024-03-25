@@ -2,10 +2,9 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 from typing import List
-import json
-import os
-import re
+import os, json
 
+# Setup global database
 global dataFile, database
 cwd = os.path.dirname(os.path.realpath(__file__))
 dataFile = open(cwd + "/../Database.json")
