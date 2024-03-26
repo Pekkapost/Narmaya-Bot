@@ -89,6 +89,12 @@
             "link": "https://discord.com/channels/1201230973388456088/1201305336607424602/1216667924673200139",
             "help": "This gives a link to how Damage Cap works."
         },
+        "awakening": {
+            "title": "Why do you not use Awakening+ Sigil?",
+            "data": "By splitting the Awakening+ Sigil into 2 Class + Orange Sigils you gain access to more damage. This is beneifical for almost all characters. Using Awakening+ is okay for a starter build, but is almost always a dps loss in a late game build.",
+            "link": "",
+            "help": "This explains why not use Awakening+ Sigils."
+        },
         "pins": {
             "title": "Pins",
             "help": "Read the Pins."

@@ -140,6 +140,15 @@ class FAQ(commands.Cog):
         # Item to find
         item = "damagecap"
         await ctx.send(embed=self.getEmbed(item))
+
+    @commands.command(
+            help=database["faqdata"]["awakening"]["help"],
+            brief=database["faqdata"]["awakening"]["help"]
+    )
+    async def awakening(self, ctx):
+        # Item to find
+        item = "awakening"
+        await ctx.send(embed=self.getEmbed(item))
     
     @commands.command(
             aliases=["pin"],
