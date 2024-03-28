@@ -236,91 +236,6 @@
         }
     },
     "charbuild": {
-        "narmaya": {
-            "1":{
-                "title": "Safe Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395680951762965/Narm1.PNG?ex=66078267&is=65f50d67&hm=d2900e83d8e179ddf31f5fc3190ed950304490bc69ab99b3f9afd488ff0d3a6f&",
-                "notes": "This build is designed for survivability.\nThis is a generic catch all build, meant for most players.\nAll secondary sigils and wrighstone here are flexible."
-            },
-            "2":{
-                "title": "Tap Setsuna DPS Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395885248188516/Narm2.PNG?ex=66078297&is=65f50d97&hm=ad05e33afbee626ef8770f0a0be5aa4c1a2a7a7f488b9484e9c80ee6a9f73b5d&",
-                "notes": "This is a tap setsuna build.\nLOTL can be replaced with Glass Cannon.\nYou can replace 2x QCD for utility sigils but this is a massive damage loss."
-            },
-            "3":{
-                "title": "Post Lucilius Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218396221207609424/Narm3.PNG?ex=660782e7&is=65f50de7&hm=882a17c2808197e8c3c95b5a21e29972d13f3790823904cd07f91ada5bda0164&",
-                "notes": "This is a `perfect` build with Supplementary V+.\n`You must sacrifice utility sigils to run Alpha, Beta, or Gamma.`\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
-            }
-        }, 
-        "zeta": {
-            "1":{
-                "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218702657464701068/Zeta1.PNG?ex=6608a04b&is=65f62b4b&hm=bc3b10b9b2901777da81881caa9ee73723710a5ee3266b89fc477cf27c3a5faa&",
-                "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Aristocrat)"
-            },
-            "2":{
-                "title": "DPS Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218702671628996688/Zeta2.PNG?ex=6608a04f&is=65f62b4f&hm=de32419ca2a3e5a29c2f34acb3ea516cbab458bdc4bd4138c07d2866ad159733&",
-                "notes": "This build is designed to maximize dps.\n`Crimson's Flight is optional.`\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Aristocrat)"
-            },
-            "3":{
-                "title": "Post Lucilius Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218765336132980786/Zeta3.PNG?ex=6608daab&is=65f665ab&hm=a11c54b1966bc43047029e219a40c7283ce3e3a5e8b7f1cf1d03a5933143b521&",
-                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything.\n(Credits to Aristocrat)"
-            }
-        },
-        "cagliostro": {
-            "1":{
-                "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218782173558083634/Cag1.PNG?ex=6608ea5a&is=65f6755a&hm=2d43a26666a41de96364e965dcfa26fbbc21951e58c68552f5bee65c088e7649&",
-                "notes": "This build is designed for survivability.\nThis relies on 20% Skill Damage OM to cap Pain Train."
-            },
-            "2":{
-                "title": "DPS Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218782187445424158/Cag2.PNG?ex=6608ea5d&is=65f6755d&hm=b4dd1cc21066519e8a76fb248a13d6e534951ea5418940ff41e24794a171b71b&",
-                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
-            },
-            "3":{
-                "title": "Post Lucilius Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218782199063777360/Cag3.PNG?ex=6608ea60&is=65f67560&hm=88aeaab14305b1ccc3b9151972dadaa24686a60d715ca43816cb4929ce2867f5&",
-                "notes": "You can swap Beta with Alpha for a damage loss if you value 3% SBA gain.\nThe utility on Supplementary V+ are not required and can be swapped around with anything."
-            }
-        },
-        "vaseraga": {
-            "1":{
-                "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220162374137286686/Vas1.PNG?ex=660defc3&is=65fb7ac3&hm=76e04c6d6b3b6633bb3bad1079b9c54e14dcad82a5871309d7eb7a6faba6f3d3&",
-                "notes": "This build is designed for survivability.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
-            },
-            "2":{
-                "title": "Post Lucilius Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220162383532523600/Vas2.PNG?ex=660defc5&is=65fb7ac5&hm=c6231da1ec4e25ece5db22ad956d99969ca351b192aefd32473cf437ac88ece1&",
-                "notes": "You can slot in more defensive sigils on your Supplementary V+ if you get them.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
-            },
-            "3":{
-                "title": "Post Lucilius Build (Perfect)",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220162394521735289/Vas3.PNG?ex=660defc8&is=65fb7ac8&hm=eefa168f5e9f1def0b1682f65f65707dafa7e67202e8c57c9cd0996f0b2104af&",
-                "notes": "All utility is optional and can be swapped around as needed.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
-            }
-        },
-        "vane": {
-            "1":{
-                "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220608404972769310/Vane1.PNG?ex=660f8f29&is=65fd1a29&hm=70223e6be14c2146e61b895df82e3e5f6475003e21e4ff03c45ee90dc563a306&",
-                "notes": "This build is designed for survivability.\nWrighstone can be any utility.\n(Credits to Marcus)"
-            },
-            "2":{
-                "title": "Post Lucilius Build (Tank Build)",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220608418528890911/Vane2.PNG?ex=660f8f2c&is=65fd1a2c&hm=c853c1a1e4cc07cde65b062b3f287b33b835d87121867c5dba5624bdd52d01f6&",
-                "notes": "This build is designed for survivability.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them.\nWrighstone can be any utility.\n(Credits to Marcus)"
-            },
-            "3":{
-                "title": "Post Lucilius Build (DPS Build)",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1221300042019897404/Vane3.PNG?ex=6612134c&is=65ff9e4c&hm=e3f2306e690e7aa3e278481cc6055eb8717b2084d99cec8a23574815d5a284e2&",
-                "notes": "All utility is optional and can be swapped around as needed.\nWrighstone can be any utility.\n(Credits to Marcus)"
-            }
-        },
         "captain": {
             "1":{
                 "title": "Safe Build",
@@ -430,6 +345,98 @@
                 "title": "WIP",
                 "link": "",
                 "notes": "WIP"
+            }
+        },
+        "ferry": {
+            "1":{
+                "title": "WIP",
+                "link": "",
+                "notes": "WIP"
+            }
+        },
+        "narmaya": {
+            "1":{
+                "title": "Safe Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395680951762965/Narm1.PNG?ex=66078267&is=65f50d67&hm=d2900e83d8e179ddf31f5fc3190ed950304490bc69ab99b3f9afd488ff0d3a6f&",
+                "notes": "This build is designed for survivability.\nThis is a generic catch all build, meant for most players.\nAll secondary sigils and wrighstone here are flexible."
+            },
+            "2":{
+                "title": "Tap Setsuna DPS Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395885248188516/Narm2.PNG?ex=66078297&is=65f50d97&hm=ad05e33afbee626ef8770f0a0be5aa4c1a2a7a7f488b9484e9c80ee6a9f73b5d&",
+                "notes": "This is a tap setsuna build.\nLOTL can be replaced with Glass Cannon.\nYou can replace 2x QCD for utility sigils but this is a massive damage loss."
+            },
+            "3":{
+                "title": "Post Lucilius Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218396221207609424/Narm3.PNG?ex=660782e7&is=65f50de7&hm=882a17c2808197e8c3c95b5a21e29972d13f3790823904cd07f91ada5bda0164&",
+                "notes": "This is a `perfect` build with Supplementary V+.\n`You must sacrifice utility sigils to run Alpha, Beta, or Gamma.`\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
+            }
+        }, 
+        "vane": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220608404972769310/Vane1.PNG?ex=660f8f29&is=65fd1a29&hm=70223e6be14c2146e61b895df82e3e5f6475003e21e4ff03c45ee90dc563a306&",
+                "notes": "This build is designed for survivability.\nWrighstone can be any utility.\n(Credits to Marcus)"
+            },
+            "2":{
+                "title": "Post Lucilius Build (Tank Build)",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220608418528890911/Vane2.PNG?ex=660f8f2c&is=65fd1a2c&hm=c853c1a1e4cc07cde65b062b3f287b33b835d87121867c5dba5624bdd52d01f6&",
+                "notes": "This build is designed for survivability.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them.\nWrighstone can be any utility.\n(Credits to Marcus)"
+            },
+            "3":{
+                "title": "Post Lucilius Build (DPS Build)",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1221300042019897404/Vane3.PNG?ex=6612134c&is=65ff9e4c&hm=e3f2306e690e7aa3e278481cc6055eb8717b2084d99cec8a23574815d5a284e2&",
+                "notes": "All utility is optional and can be swapped around as needed.\nWrighstone can be any utility.\n(Credits to Marcus)"
+            }
+        },
+        "cagliostro": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218782173558083634/Cag1.PNG?ex=6608ea5a&is=65f6755a&hm=2d43a26666a41de96364e965dcfa26fbbc21951e58c68552f5bee65c088e7649&",
+                "notes": "This build is designed for survivability.\nThis relies on 20% Skill Damage OM to cap Pain Train."
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218782187445424158/Cag2.PNG?ex=6608ea5d&is=65f6755d&hm=b4dd1cc21066519e8a76fb248a13d6e534951ea5418940ff41e24794a171b71b&",
+                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218782199063777360/Cag3.PNG?ex=6608ea60&is=65f67560&hm=88aeaab14305b1ccc3b9151972dadaa24686a60d715ca43816cb4929ce2867f5&",
+                "notes": "You can swap Beta with Alpha for a damage loss if you value 3% SBA gain.\nThe utility on Supplementary V+ are not required and can be swapped around with anything."
+            }
+        },
+        "zeta": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218702657464701068/Zeta1.PNG?ex=6608a04b&is=65f62b4b&hm=bc3b10b9b2901777da81881caa9ee73723710a5ee3266b89fc477cf27c3a5faa&",
+                "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Aristocrat)"
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218702671628996688/Zeta2.PNG?ex=6608a04f&is=65f62b4f&hm=de32419ca2a3e5a29c2f34acb3ea516cbab458bdc4bd4138c07d2866ad159733&",
+                "notes": "This build is designed to maximize dps.\n`Crimson's Flight is optional.`\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Aristocrat)"
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218765336132980786/Zeta3.PNG?ex=6608daab&is=65f665ab&hm=a11c54b1966bc43047029e219a40c7283ce3e3a5e8b7f1cf1d03a5933143b521&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything.\n(Credits to Aristocrat)"
+            }
+        },
+        "vaseraga": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220162374137286686/Vas1.PNG?ex=660defc3&is=65fb7ac3&hm=76e04c6d6b3b6633bb3bad1079b9c54e14dcad82a5871309d7eb7a6faba6f3d3&",
+                "notes": "This build is designed for survivability.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
+            },
+            "2":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220162383532523600/Vas2.PNG?ex=660defc5&is=65fb7ac5&hm=c6231da1ec4e25ece5db22ad956d99969ca351b192aefd32473cf437ac88ece1&",
+                "notes": "You can slot in more defensive sigils on your Supplementary V+ if you get them.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
+            },
+            "3":{
+                "title": "Post Lucilius Build (Perfect)",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220162394521735289/Vas3.PNG?ex=660defc8&is=65fb7ac8&hm=eefa168f5e9f1def0b1682f65f65707dafa7e67202e8c57c9cd0996f0b2104af&",
+                "notes": "All utility is optional and can be swapped around as needed.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
             }
         },
         "help": "This displays example builds."
