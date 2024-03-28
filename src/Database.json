@@ -389,6 +389,35 @@
                 "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
+        "eugen": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1223002604045471744/Eug1.PNG?ex=661844ef&is=6605cfef&hm=5cc6158ad95f18eb0c614ad4bacfdffb686f4d67bc3cf983317550d8fdb2daab&",
+                "notes": "This build is designed for survivability."
+            },
+            "2":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1223002622597009428/Eug3.PNG?ex=661844f3&is=6605cff3&hm=ce2e2a5773c4c6d967996eda9948dd4baa4e33448263c7ec78e6a9ef4fff7ccd&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
+            }
+        },
+        "rosetta": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1223004453909561394/Ros1.PNG?ex=661846a8&is=6605d1a8&hm=c947c5eedfe107c4cf7e7f4c82a12e579caf96e6b55c212ef530af2ea27cd36b&",
+                "notes": "This build is designed for survivability."
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1223004463606796400/Ros2.PNG?ex=661846aa&is=6605d1aa&hm=d4a48e3168ef6923e918b442f59335d684066bed9a04dde0ee2fe1d050d0ffe7&",
+                "notes": "This build is designed to maximize dps.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1223004474549862431/Ros3.PNG?ex=661846ad&is=6605d1ad&hm=722db9fd17e8aac793b2f00655d041f98ad3d701e4775fe68bc65a5bff85b6a9&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire."
+            }
+        },
         "rackam": {
             "1":{
                 "title": "Currently No Builds",
