@@ -253,23 +253,6 @@
                 "notes": "This is a `perfect` build with Supplementary V+.\n`You must sacrifice utility sigils to run Alpha, Beta, or Gamma.`\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
             }
         }, 
-        "katalina": {
-            "1":{
-                "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218400569832767548/Kat1.PNG?ex=660786f4&is=65f511f4&hm=ac2bb151eafefe8a5f624b3d300f44bc6f47de99696c31f5664fa3cb446d5335&",
-                "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful so you dont drop Ares.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Noa)"
-            },
-            "2":{
-                "title": "DPS Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218653809861984307/Kat2.PNG?ex=660872cd&is=65f5fdcd&hm=80a9f72332127bf417d13483232bc8772790f14982601c1fc39ba81236030ff0&",
-                "notes": "This build is designed to maximize dps.\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Noa)"
-            },
-            "3":{
-                "title": "Firm Stance Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218653824034668714/Kat3.PNG?ex=660872d1&is=65f5fdd1&hm=d4b0bf256dc34d61a5a1a44feb909f3a5549a63b740a312907713107d2ebd2c7&",
-                "notes": "This build is around Firm Stance.\nYou will drop Ares if you get pushed back by the boss, which you can avoid with lv 20 Firm Stance.\n(Credits to Noa)"
-            }
-        },
         "zeta": {
             "1":{
                 "title": "Safe Build",
@@ -302,40 +285,6 @@
                 "title": "Post Lucilius Build",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218782199063777360/Cag3.PNG?ex=6608ea60&is=65f67560&hm=88aeaab14305b1ccc3b9151972dadaa24686a60d715ca43816cb4929ce2867f5&",
                 "notes": "You can swap Beta with Alpha for a damage loss if you value 3% SBA gain.\nThe utility on Supplementary V+ are not required and can be swapped around with anything."
-            }
-        },
-        "charlotta": {
-            "1":{
-                "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802363926282370/Char1.PNG?ex=660ca07a&is=65fa2b7a&hm=a49c8deca51536c72c48dbfdb5be616cee91ed7caeb4550cdafd0f4c1e76db76&",
-                "notes": "This build is designed for survivability."
-            },
-            "2":{
-                "title": "DPS Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802375985037443/Char2.PNG?ex=660ca07d&is=65fa2b7d&hm=41463653d7a06df593f62da92d23e0faefd49f8288cf2566e8de5c24effb381d&",
-                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
-            },
-            "3":{
-                "title": "Post Lucilius Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802386999148544/Char3.PNG?ex=660ca07f&is=65fa2b7f&hm=9abb76010f1f291cb942c4f26183c8f5415d85c9f23878c2946e3656bbb727e4&",
-                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
-            }
-        },
-        "io": {
-            "1":{
-                "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153321235546163/Io1.PNG?ex=660de755&is=65fb7255&hm=896428546c8242137eb95b06dc08d68cd6479898424095870da3d727913f1120&",
-                "notes": "This build is designed for survivability."
-            },
-            "2":{
-                "title": "DPS Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153333566668820/Io2.PNG?ex=660de758&is=65fb7258&hm=c5c553133575ac90623ed3269dd0292b4e90ac62ddd4c707b62b029e24c740a4&",
-                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
-            },
-            "3":{
-                "title": "Post Lucilius Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153345663176855/Io3.PNG?ex=660de75a&is=65fb725a&hm=d1750c240e20188c778dd1d271a1b5e84bda946cae0db0796f3cd86a86bfa6a9&",
-                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
         "vaseraga": {
@@ -389,6 +338,47 @@
                 "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
+        "katalina": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218400569832767548/Kat1.PNG?ex=660786f4&is=65f511f4&hm=ac2bb151eafefe8a5f624b3d300f44bc6f47de99696c31f5664fa3cb446d5335&",
+                "notes": "This build is designed for survivability.\nThis only runs 2 Supplementary Damage sigils as the other damage sigils are more valuable.\nStout Heart is useful so you dont drop Ares.\nDrain caps at 500 per hit so you only need a few levels on wrightstone.\n(Credits to Noa)"
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218653809861984307/Kat2.PNG?ex=660872cd&is=65f5fdcd&hm=80a9f72332127bf417d13483232bc8772790f14982601c1fc39ba81236030ff0&",
+                "notes": "This build is designed to maximize dps.\nYou can slot in QCD or more defensive sigils on your Supplementary V+ if you get them.\n(Credits to Noa)"
+            },
+            "3":{
+                "title": "Firm Stance Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218653824034668714/Kat3.PNG?ex=660872d1&is=65f5fdd1&hm=d4b0bf256dc34d61a5a1a44feb909f3a5549a63b740a312907713107d2ebd2c7&",
+                "notes": "This build is around Firm Stance.\nYou will drop Ares if you get pushed back by the boss, which you can avoid with lv 20 Firm Stance.\n(Credits to Noa)"
+            }
+        },
+        "rackam": {
+            "1":{
+                "title": "Currently No Builds",
+                "link": "",
+                "notes": "Currently No Builds"
+            }
+        },
+        "io": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153321235546163/Io1.PNG?ex=660de755&is=65fb7255&hm=896428546c8242137eb95b06dc08d68cd6479898424095870da3d727913f1120&",
+                "notes": "This build is designed for survivability."
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153333566668820/Io2.PNG?ex=660de758&is=65fb7258&hm=c5c553133575ac90623ed3269dd0292b4e90ac62ddd4c707b62b029e24c740a4&",
+                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220153345663176855/Io3.PNG?ex=660de75a&is=65fb725a&hm=d1750c240e20188c778dd1d271a1b5e84bda946cae0db0796f3cd86a86bfa6a9&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
+            }
+        },
         "eugen": {
             "1":{
                 "title": "Safe Build",
@@ -418,11 +408,28 @@
                 "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire."
             }
         },
-        "rackam": {
+        "charlotta": {
             "1":{
-                "title": "Currently No Builds",
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802363926282370/Char1.PNG?ex=660ca07a&is=65fa2b7a&hm=a49c8deca51536c72c48dbfdb5be616cee91ed7caeb4550cdafd0f4c1e76db76&",
+                "notes": "This build is designed for survivability."
+            },
+            "2":{
+                "title": "DPS Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802375985037443/Char2.PNG?ex=660ca07d&is=65fa2b7d&hm=41463653d7a06df593f62da92d23e0faefd49f8288cf2566e8de5c24effb381d&",
+                "notes": "This build is designed to maximize dps.\n`QCD and Cascade are not needed`, you can replace them with utility sigils if you desire.\nYou can slot in more defensive sigils on your Supplementary V+ if you get them."
+            },
+            "3":{
+                "title": "Post Lucilius Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1219802386999148544/Char3.PNG?ex=660ca07f&is=65fa2b7f&hm=9abb76010f1f291cb942c4f26183c8f5415d85c9f23878c2946e3656bbb727e4&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
+            }
+        },
+        "ghandagoza": {
+            "1":{
+                "title": "WIP",
                 "link": "",
-                "notes": "Currently No Builds"
+                "notes": "WIP"
             }
         },
         "help": "This displays example builds."
