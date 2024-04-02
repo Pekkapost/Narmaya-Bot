@@ -50,7 +50,7 @@ class Characters(commands.Cog):
         if character not in database["characters"].keys():
             await interaction.response.send_message(content=f"{character} is not supported.")
             return
-        await interaction.response.send_message(embeds=[self.getEmbed(character, "guide"), self.getEmbed(character, "thread")])
+        await interaction.response.send_message(embeds=[self.getEmbed(character, "guide"), self.getEmbed(character, "channel")])
         return
 
 
@@ -63,7 +63,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "narmaya"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["io"]["help"],
@@ -73,7 +73,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "io"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
     
     @commands.command(
             aliases=["gran","djeeta"],
@@ -84,7 +84,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "captain"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
     
     @commands.command(
             help=database["characters"]["katalina"]["help"],
@@ -94,7 +94,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "katalina"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
     
     @commands.command(
             help=database["characters"]["rackam"]["help"],
@@ -104,7 +104,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "rackam"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
     
     @commands.command(
             help=database["characters"]["eugen"]["help"],
@@ -114,7 +114,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "eugen"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
     
     @commands.command(
             help=database["characters"]["rosetta"]["help"],
@@ -124,7 +124,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "rosetta"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["ferry"]["help"],
@@ -134,7 +134,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "ferry"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
     
     @commands.command(
             help=database["characters"]["lancelot"]["help"],
@@ -144,7 +144,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "lancelot"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
     
     @commands.command(
             help=database["characters"]["percival"]["help"],
@@ -154,7 +154,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "percival"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["vane"]["help"],
@@ -164,7 +164,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "vane"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["siegfried"]["help"],
@@ -174,7 +174,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "siegfried"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["charlotta"]["help"],
@@ -184,7 +184,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "charlotta"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["yodarha"]["help"],
@@ -194,7 +194,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "yodarha"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["zeta"]["help"],
@@ -204,7 +204,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "zeta"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["vaseraga"]["help"],
@@ -214,7 +214,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "vaseraga"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["cagliostro"]["help"],
@@ -224,7 +224,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "cagliostro"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["ghandagoza"]["help"],
@@ -234,7 +234,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "ghandagoza"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
     @commands.command(
             help=database["characters"]["id"]["help"],
@@ -244,7 +244,7 @@ class Characters(commands.Cog):
         # Item to find
         character = "id"
         await ctx.send(embed=self.getEmbed(character,"guide"))
-        await ctx.send(embed=self.getEmbed(character,"thread"))
+        await ctx.send(embed=self.getEmbed(character,"channel"))
 
 async def setup(client):
     await client.add_cog(Characters(client))

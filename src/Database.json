@@ -60,8 +60,8 @@
         "afk": {
             "title": "AFK Farming",
             "data": "Check this channel for information on how to Afk Farm.",
-            "link": "https://discord.com/channels/1201230973388456088/1205341744665989160/1210415854324285470",
-            "help": "This gives a link to the super soldiers character thread."
+            "link": "https://discord.com/channels/1201230973388456088/1219269697929740320",
+            "help": "This gives a link to the super soldiers character channel."
         },
         "sigildrops": {
             "title": "Sigil Drop Table",
@@ -102,133 +102,133 @@
     },
     "characters": {
         "narmaya": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269389606457414",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269389606457414",
             "guide": "https://discord.com/channels/1201230973388456088/1205283845000265728",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_narmaya.png?20240309112351",
             "help": "This gives a link to the Narmaya Character Thread and Guide."
         },
         "io": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269236745306112",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269236745306112",
             "guide": "https://discord.com/channels/1201230973388456088/1207453490570330212",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_io.png?20240309112351",
             "help": "This gives a link to the Io Character Thread and Guide."
         },
         "captain": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269103848652810",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269103848652810",
             "guide": "https://discord.com/channels/1201230973388456088/1208184601407655966",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_djeeta.png?20240309112351",
             "help": "This gives a link to the Captain Character Thread and Guide."
         },
         "katalina": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269200011333803",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269200011333803",
             "guide": "https://discord.com/channels/1201230973388456088/1207410971082100736",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_katalina.png?20240314052146",
             "help": "This gives a link to the Katalina Character Thread and Guide."
         },
         "rackam": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269220555034735",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269220555034735",
             "guide": "https://discord.com/channels/1201230973388456088/1207819487240257546",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_rackam.png?20240314052146",
             "help": "This gives a link to the Rackam Character Thread and Guide."
         },
         "eugen": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269251802857472",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269251802857472",
             "guide": "https://imgur.com/a/LobuRKb",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_eugen.png?20240314052146",
             "help": "This gives a link to the Eugen Character Thread and Guide."
         },
         "rosetta": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269264964325487",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269264964325487",
             "guide": "https://discord.com/channels/1201230973388456088/1207392595295342592",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_rosetta.png?20240314052146",
             "help": "This gives a link to the Rosetta Character Thread and Guide."
         },
         "ferry": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269439434784808",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269439434784808",
             "guide": "https://discord.com/channels/1201230973388456088/1207581823425716265",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_ferry.png?20240314052146",
             "help": "This gives a link to the Ferry Character Thread and Guide."
         },
         "lancelot": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269280185712771",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269280185712771",
             "guide": "",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_lancelot.png?20240314052146",
             "help": "This gives a link to the Lancelot Character Thread and Guide."
         },
         "percival": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269306119094343",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269306119094343",
             "guide": "https://discord.com/channels/1201230973388456088/1207436396990570618",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_percival.png?20240314052146",
             "help": "This gives a link to the Percy Character Thread and Guide."
         },
         "vane": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269293661749318",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269293661749318",
             "guide": "https://discord.com/channels/1201230973388456088/1208511856701083678",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_vane.png?20240314052146",
             "help": "This gives a link to the Vane Character Thread and Guide."
         },
         "siegfried": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269327220506644",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269327220506644",
             "guide": "https://discord.com/channels/1201230973388456088/1207443611940290580",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_siegfried.png?20240314052146",
             "help": "This gives a link to the Siegfried Character Thread and Guide."
         },
         "charlotta": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269350209487000",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269350209487000",
             "guide": "https://discord.com/channels/1201230973388456088/1211756758507327579",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_charlotta.png?20240314052146",
             "help": "This gives a link to the Charlotta Character Thread and Guide."
         },
         "yodarha": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269376457445406",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269376457445406",
             "guide": "https://discord.com/channels/1201230973388456088/1207830137798787142",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_yodarha.png?20240314052146",
             "help": "This gives a link to the Yodarha Character Thread and Guide."
         },
         "zeta": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269405129576478",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269405129576478",
             "guide": "https://discord.com/channels/1201230973388456088/1205369850285785110",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_zeta.png?20240314052146",
             "help": "This gives a link to the Zeta Character Thread and Guide."
         },
         "vaseraga": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269419230822420",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269419230822420",
             "guide": "https://discord.com/channels/1201230973388456088/1202454231127166976/1202456638926356580",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_vaseraga.png?20240314052146",
             "help": "This gives a link to the Vaseraga Character Thread and Guide."
         },
         "cagliostro": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269487841509486",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269487841509486",
             "guide": "https://discord.com/channels/1201230973388456088/1205278677198315620",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_cagliostro.png?20240314052146",
             "help": "This gives a link to the Cagliostro Character Thread and Guide."
         },
         "ghandagoza": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269470464512060",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269470464512060",
             "guide": "https://discord.com/channels/1201230973388456088/1207524937775058994",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_ghandagoza.png?20240314052146",
             "help": "This gives a link to the Ghandagoza Character Thread and Guide."
         },
         "id": {
-            "thread": "https://discord.com/channels/1201230973388456088/1219269502899064934",
+            "channel": "https://discord.com/channels/1201230973388456088/1219269502899064934",
             "guide": "https://discord.com/channels/1201230973388456088/1207403175523516467",
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_id.png?20240314052146",
@@ -354,9 +354,19 @@
         },
         "ferry": {
             "1":{
-                "title": "WIP",
-                "link": "",
-                "notes": "WIP"
+                "title": "Safe Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1224857275559051374/Ferry1.PNG?ex=661f043b&is=660c8f3b&hm=23424c869033f8fc98696692e02766a23429a53a6422e955506531a1ec3256a4&",
+                "notes": "This build is designed for survivability.\nThis is a generic catch all build, meant for most players.\nAll secondary sigils and wrighstone here are flexible."
+            },
+            "2":{
+                "title": "Uplift Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1224857286116118608/Ferry2.PNG?ex=661f043d&is=660c8f3d&hm=08744c93054a8068165d2d2b1329cfbf79e45b423d02c83165dbc4c3111dfff2&",
+                "notes": "This build is designed to maximize SBA gain."
+            },
+            "3":{
+                "title": "Post Lucilius Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1224857297579282462/Ferry3.PNG?ex=661f0440&is=660c8f40&hm=3b37cd76cf53f02b945af8061742ad5eb61f21eec90e04adaae1639ff7b62e11&",
+                "notes": "The utility on Supplementary V+ are not required and can be swapped around with anything."
             }
         },
         "narmaya": {
