@@ -386,6 +386,18 @@
                 "notes": "This is a `perfect` build with Supplementary V+.\n`You must sacrifice utility sigils to run Alpha, Beta, or Gamma.`\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
             }
         }, 
+        "lancelot": {
+            "1":{
+                "title": "Safe Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1227820733284093982/Lance1.PNG?ex=6629cc2a&is=6617572a&hm=4fff4898dd72803a098491b0375d2124f310861f1840841c0042844b0202989a&",
+                "notes": "This build is designed for survivability.\nThis is a generic catch all build, meant for most players.\nAll secondary sigils and wrighstone here are flexible."
+            },
+            "3":{
+                "title": "Post Lucilius Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1227821089649070120/Lance2.PNG?ex=6629cc7f&is=6617577f&hm=66b986856d05c7f65df203f276dad39eb85f688d3a5b7822b72329f3cdc9832e&",
+                "notes": "All utility is optional and can be swapped around as needed.\nWrighstone can be any utility."
+            }
+        }, 
         "vane": {
             "1":{
                 "title": "Safe Build",
