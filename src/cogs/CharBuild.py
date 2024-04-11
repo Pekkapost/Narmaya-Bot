@@ -126,7 +126,7 @@ class CharBuild(commands.Cog):
         if len(msgSplit) > 1:
             character = msgSplit[1].lower()
             if character not in database["charbuild"].keys():
-                await ctx.send(character + " is not supported.")
+                await ctx.send(character + " 's builds do not currently exist. This command will be updated if future builds are provided.")
                 return
 
             if len(msgSplit) > 2:
