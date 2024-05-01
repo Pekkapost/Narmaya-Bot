@@ -376,14 +376,14 @@
                 "notes": "This build is designed for survivability.\nThis is a generic catch all build, meant for most players.\nAll secondary sigils and wrighstone here are flexible."
             },
             "2":{
-                "title": "Tap Setsuna DPS Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395885248188516/Narm2.PNG?ex=66078297&is=65f50d97&hm=ad05e33afbee626ef8770f0a0be5aa4c1a2a7a7f488b9484e9c80ee6a9f73b5d&",
-                "notes": "This is a tap setsuna build.\nLOTL can be replaced with Glass Cannon.\nYou can replace 2x QCD for utility sigils but this is a massive damage loss."
+                "title": "Warpath DPS Build.",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235356877970341928/Narm2.PNG?ex=6634133f&is=6632c1bf&hm=c20c7da1e3f17b8bd9431e15a7dd541b2b27290b51950fffd06b9fe1ff4b71a8&",
+                "notes": "You can drop some utility for Beta/Gamma.\n(Credits David Walker)"
             },
             "3":{
                 "title": "Post Lucilius Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218396221207609424/Narm3.PNG?ex=660782e7&is=65f50de7&hm=882a17c2808197e8c3c95b5a21e29972d13f3790823904cd07f91ada5bda0164&",
-                "notes": "This is a `perfect` build with Supplementary V+.\n`You must sacrifice utility sigils to run Alpha, Beta, or Gamma.`\nYou can choose to drop 2x Quick Cooldown for 1x Potion Hoarder and 1x Improved Dodge/Aegis."
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235356889492099192/Narm3.PNG?ex=66341342&is=6632c1c2&hm=502c2e940b2f1ed08d2fc6ede2055fabf2f99c2b22b1b90c7018119ea2f45c26&",
+                "notes": "This is a `perfect` build with Supplementary V+.\n`You must sacrifice utility sigils to run Alpha, Beta, or Gamma.\n(Credits David Walker)"
             }
         }, 
         "lancelot": {
