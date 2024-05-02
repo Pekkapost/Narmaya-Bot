@@ -377,7 +377,7 @@
             },
             "2":{
                 "title": "Warpath DPS Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235356877970341928/Narm2.PNG?ex=6634133f&is=6632c1bf&hm=c20c7da1e3f17b8bd9431e15a7dd541b2b27290b51950fffd06b9fe1ff4b71a8&",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235441310127624222/Narm2.PNG?ex=663461e1&is=66331061&hm=315b8cad4fb949e1ed9056ab15e706670c3b72c701dbc524e8d98e0a9924ee63&",
                 "notes": "You can drop some utility for Beta/Gamma.\n(Credits David Walker)"
             },
             "3":{
@@ -464,6 +464,23 @@
                 "title": "Post Lucilius Build (Perfect)",
                 "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1220162394521735289/Vas3.PNG?ex=660defc8&is=65fb7ac8&hm=eefa168f5e9f1def0b1682f65f65707dafa7e67202e8c57c9cd0996f0b2104af&",
                 "notes": "All utility is optional and can be swapped around as needed.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
+            }
+        },
+        "tweyen": {
+            "1":{
+                "title": "Safe Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235444178800873482/Tw1.PNG?ex=6634648d&is=6633130d&hm=40cd12476fd0cdf47a98c8a1af1f754daaa981ec6b47f9d4d0884791c700d9af&",
+                "notes": "This build is designed for survivability.\nLevel 7 on wrighstone can be anything.\n(Credits to Mei)"
+            },
+            "2":{
+                "title": "Flight over Fight Build",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235444192919031828/Tw2.PNG?ex=66346491&is=66331311&hm=e41bd9253cccae6b15bf3516593bdda1c0a4afdfc26c55cdb10570e1421d6ba1&",
+                "notes": "This build is designed around FoF and Combo Booster.\n(Credits to Mei)"
+            },
+            "3":{
+                "title": "Post Lucilius Build (Perfect)",
+                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235444201391656980/Tw3.PNG?ex=66346493&is=66331313&hm=0a5a6f84cd1e82b1cdce4cc9b0b3f37c68ec0c990cc5b174124421fc16c762bc&",
+                "notes": "All utility is optional and can be swapped around as needed.\nLevel 7 on wrighstone can be anything.\n(Credits to Mei)"
             }
         },
         "help": "This displays example builds."
