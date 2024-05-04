@@ -466,6 +466,28 @@
                 "notes": "All utility is optional and can be swapped around as needed.\nLevel 7 on wrighstone can be anything.\nFirm stance can be level 4 on wrighstone.\n(Credits to justindeadblast)"
             }
         },
+        "id": {
+            "1":{
+                "title": "Basic Id Build",
+                "link": "https://cdn.discordapp.com/attachments/1219269502899064934/1236378783955550300/e726218132.png?ex=6637caf8&is=66367978&hm=9e6befc0e8f245f564a5c8b224db29ed6649447ec01e744f202aba9d49dc4cfe&",
+                "notes": "A beginner Id build to work towards at the start.\nThe last sigil slot is completely free to fill with anything you prefer.\n(Credits to Drake Blackwell)"
+            },
+            "2":{
+                "title": "Basic Gamma Id",
+                "link": "https://cdn.discordapp.com/attachments/1219269502899064934/1236378874749915186/9471e9729b.png?ex=6637cb0e&is=6636798e&hm=ff392e9a7239b571eb3596ec6b0efa10b2831070a9b1b4ce03f8fb078f294979&",
+                "notes": "A simple way to run Gamma while keeping your mobility and survivability.\nCascade can be replaced with more survivability, but helps keep your rotations fluid.\n(Credits to Drake Blackwell)"
+            },
+            "3":{
+                "title": "Full Lucilius Id",
+                "link": "https://cdn.discordapp.com/attachments/1219269502899064934/1236378992806727680/5b4eb6c888.png?ex=6637cb2a&is=663679aa&hm=63a2ed80fb48c96736b623eabead4c702b54bb26b830f80127a746d9ce4f2690&",
+                "notes": "Improved Dodge and Nimble Onslaught are recommended for mobility and form Cycling.\nWrightstone can be changed to preference.\n(Credits to Drake Blackwell)"
+            },
+            "4":{
+                "title": "Warpath (Versalis Heart) Id",
+                "link": "https://cdn.discordapp.com/attachments/1219269502899064934/1236379049907982458/888787a0f0.png?ex=6637cb38&is=663679b8&hm=9d3560b8028c41c88b09c50ee364b32185ee95a56db02eba59f02b7c2912fee8&",
+                "notes": "Defense can be substituted if you are comfortable.\nMain gimmick of Versalis Heart is staying alive in Versalis Form until you can spam Godmight Super Finishers.\n(Credits to Drake Blackwell)"
+            }
+        },
         "tweyen": {
             "1":{
                 "title": "Safe Build",
