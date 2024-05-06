@@ -124,7 +124,6 @@ class MyClient(Bot):
                     messages = [message async for message in thread.history(limit=1)]
                     newtime = (datetime.now(timezone.utc) - messages[0].created_at)
                     if newtime.total_seconds() > (1 * (60 * 60 * 1)):
-                        print("Deleting: "+ thread.name)
                         await thread.delete()
                 except Exception as e:
                     print("Could not find message in thread")
