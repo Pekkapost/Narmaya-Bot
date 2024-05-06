@@ -233,6 +233,20 @@
             "color": "0xfda2f5",
             "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/nav_id.png?20240314052146",
             "help": "This gives a link to the Id Character Thread and Guide."
+        },
+        "seofon": {
+            "channel": "https://discord.com/channels/1201230973388456088/1219269513003008001",
+            "guide": "https://discord.com/channels/1201230973388456088/1219269513003008001/1236402884153704550",
+            "color": "0xfda2f5",
+            "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/list_chara_seofon.png?20240426045102",
+            "help": "This gives a link to the Seofon Character Thread and Guide."
+        },
+        "tweyen": {
+            "channel": "https://discord.com/channels/1201230973388456088/1219269526659530783",
+            "guide": "https://discord.com/channels/1201230973388456088/1219269526659530783/1233818245199298681",
+            "color": "0xfda2f5",
+            "image": "https://relink.granbluefantasy.jp/assets/images/common/common/characters/list_chara_tweyen.png?20240426045102",
+            "help": "This gives a link to the Tweyen Character Thread and Guide."
         }
     },
     "charbuild": {
