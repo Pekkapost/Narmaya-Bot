@@ -504,19 +504,19 @@
         },
         "tweyen": {
             "1":{
-                "title": "Safe Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235444178800873482/Tw1.PNG?ex=6634648d&is=6633130d&hm=40cd12476fd0cdf47a98c8a1af1f754daaa981ec6b47f9d4d0884791c700d9af&",
-                "notes": "This build is designed for survivability.\nLevel 7 on wrighstone can be anything.\n(Credits to Mei)"
+                "title": "Mathematically Correct",
+                "link": "https://cdn.discordapp.com/attachments/1219269526659530783/1251233567871209552/mathematicallycorrect.png?ex=666f2711&is=666dd591&hm=96c71de20f66b8b4e18d57fb279672f12e3ad98081d469f22d5f927592430574&",
+                "notes": "(Credits to Mei)"
             },
             "2":{
-                "title": "Flight over Fight Build",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235444192919031828/Tw2.PNG?ex=66346491&is=66331311&hm=e41bd9253cccae6b15bf3516593bdda1c0a4afdfc26c55cdb10570e1421d6ba1&",
-                "notes": "This build is designed around FoF and Combo Booster.\n(Credits to Mei)"
+                "title": "Super Ultimate Perfect Dodge",
+                "link": "https://cdn.discordapp.com/attachments/1219269526659530783/1251233568156549150/supd.png?ex=666f2711&is=666dd591&hm=0d593f8274f296f1f2038522689f757d6fb71dd26d1a62f9cad8836de2ed3e78&",
+                "notes": "(Credits to Mei)"
             },
             "3":{
-                "title": "Post Lucilius Build (Perfect)",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235444201391656980/Tw3.PNG?ex=66346493&is=66331313&hm=0a5a6f84cd1e82b1cdce4cc9b0b3f37c68ec0c990cc5b174124421fc16c762bc&",
-                "notes": "All utility is optional and can be swapped around as needed.\nLevel 7 on wrighstone can be anything.\n(Credits to Mei)"
+                "title": "Flight over Fight",
+                "link": "https://cdn.discordapp.com/attachments/1219269526659530783/1251233568412270623/flightoverfight.png?ex=666f2711&is=666dd591&hm=8a8c378f397bef17515860c595314bcc46fe858c4ca38de8c4a4124b20ff054d&",
+                "notes": "(Credits to Mei)"
             }
         },
         "help": "This displays example builds."
