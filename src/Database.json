@@ -519,6 +519,23 @@
                 "notes": "(Credits to Mei)"
             }
         },
+        "sandalphon": {
+            "1":{
+                "title": "Practical Endgame Build",
+                "link": "https://cdn.discordapp.com/attachments/1219269546670686250/1260588475011301397/image.png?ex=668fde01&is=668e8c81&hm=9812e8007c35c9ce7dbe1f3a942a3189e728082250e2bd29c3aec5e7a8857360&",
+                "notes": "Supp with no secondary is Potent Greens/Supplementary Damage from Rolan\nBuilt for 16% crit rate/0 attack OM; can drop Glass Cannon and Potent for second Tyranny and 1K attack OM to free a slot\nCan replace any comfort/QoL with Luci, or drop them if you don't have the rare sigils needed\n(Credits to Silver)"
+            },
+            "2":{
+                "title": "Budget Build",
+                "link": "https://cdn.discordapp.com/attachments/1219269546670686250/1260588475292586014/image.png?ex=668fde01&is=668e8c81&hm=d7f4f479d1ebb51c30fee67892f4888ce1ad344df6a4856698bafc724c932d1c&",
+                "notes": "Requires 10% crit rate and 700 atk OM\nIntended to be built towards while clearing Proud or around that level\nCan add extra suppV if no War Elemental/as you aquire more good SuppV+\n(Credits to Silver)"
+            },
+            "3":{
+                "title": "Max DPS",
+                "link": "https://cdn.discordapp.com/attachments/1219269546670686250/1260588475535720449/image.png?ex=668fde01&is=668e8c81&hm=218e05423ff8c5e86cf953e58413fc9fc72db22b39440a925a637728cf7cb07f&",
+                "notes": "Not recommended for actual use; You're not dealing damage if you're dead\nRemove Luci sigils and customise towards build 1 to preference\n(Credits to Silver)"
+            }
+        },
         "help": "This displays example builds."
     },
     "meme": {
