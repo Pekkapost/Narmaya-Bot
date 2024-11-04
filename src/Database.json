@@ -392,19 +392,39 @@
         },
         "narmaya": {
             "1":{
-                "title": "Safe Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1218395680951762965/Narm1.PNG?ex=66078267&is=65f50d67&hm=d2900e83d8e179ddf31f5fc3190ed950304490bc69ab99b3f9afd488ff0d3a6f&",
-                "notes": "This build is designed for survivability.\nThis is a generic catch all build, meant for most players.\nAll secondary sigils and wrighstone here are flexible."
+                "title": "Simple Access, Comfort and Decent DPS",
+                "link": "https://cdn.discordapp.com/attachments/1273840713796157451/1301991963653836850/Screenshot_2024-11-02_025512.png?ex=6729c9c1&is=67287841&hm=33d65c8b37f49bb3b082d02e19f55af35a67bedb23fc6bc924a4817ad333c214&",
+                "notes": "Easy to obtain for pre-end game.\nHigh survivability with nimble onslaught, guts, autorevive, and potion hoarder, while having essentials to deal damage.\n(Credits to Sprygon)\nWarpath can be swapped out for comfort utilities or more damage sigils if you are having problem with SBA generation."
             },
             "2":{
-                "title": "Warpath DPS Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235441310127624222/Narm2.PNG?ex=663461e1&is=66331061&hm=315b8cad4fb949e1ed9056ab15e706670c3b72c701dbc524e8d98e0a9924ee63&",
-                "notes": "You can drop some utility for Beta/Gamma.\n(Credits David Walker)"
+                "title": "Simple Access, Low Comfort and High DPS",
+                "link": "https://cdn.discordapp.com/attachments/1273840713796157451/1301991963653836850/Screenshot_2024-11-02_025512.png?ex=6729c9c1&is=67287841&hm=33d65c8b37f49bb3b082d02e19f55af35a67bedb23fc6bc924a4817ad333c214&",
+                "notes": "Easy to obtain pre-end game.\nRemoved survivability sigils for more utility sigils that helps with more skill rotations to deal more damage.\n(Credits to Sprygon)\nWarpath can be swapped out for comfort utilities or more damage sigils if you are having problem with SBA generation."
             },
             "3":{
-                "title": "Post Lucilius Build.",
-                "link": "https://cdn.discordapp.com/attachments/1216535600488775690/1235356889492099192/Narm3.PNG?ex=66341342&is=6632c1c2&hm=502c2e940b2f1ed08d2fc6ede2055fabf2f99c2b22b1b90c7018119ea2f45c26&",
-                "notes": "This is a `perfect` build with Supplementary V+.\n`You must sacrifice utility sigils to run Alpha, Beta, or Gamma.\n(Credits David Walker)"
+                "title": "Moderate Access, Zero Comfort Supplementary Build and High DPS",
+                "link": "https://cdn.discordapp.com/attachments/1273840713796157451/1301993472475140096/image.png?ex=6729cb29&is=672879a9&hm=43ce8d4bbe5e24c2a73ecc79ff054cd0313427da1e226f7bff886572cf5efc28&",
+                "notes": "Need some grinding to obtain supplementary damage sigils.\nAble to max quick cooldown sigils with more Supp V+s.\n(Credits to Sprygon)\nWarpath can be swapped out for comfort utilities or more damage sigils if you are having problem with SBA generation."
+            },
+            "4":{
+                "title": "High End Build, Comfort and High DPS",
+                "link": "https://cdn.discordapp.com/attachments/1273840713796157451/1301994046226567351/Screenshot_2024-11-02_024913.png?ex=6729cbb2&is=67287a32&hm=ecf0b203874362afc0dae1cb7332ae40af2101cec1d7790417c32e7eba6adab3&",
+                "notes": "Having all essentials and utilities, while having super high damage output from supplementary damage.\nQuick charge is an additional bonus that can be changed for more survivability.\n(Credits to Sprygon)\nWarpath can be swapped out for comfort utilities or more damage sigils if you are having problem with SBA generation."
+            },
+            "5":{
+                "title": "High End Build, Zero Comfort and Maximum DPS",
+                "link": "https://cdn.discordapp.com/attachments/1273840713796157451/1301994490369806486/Screenshot_2024-11-02_023630.png?ex=6729cc1c&is=67287a9c&hm=ca542328149db4d508d6bdd4ac31a99c0acff4131dd5e8fb1b92d68f005b27a4&",
+                "notes": "Removed all comfort utilities and included Glass Cannon for more damage output.\nUse this only when you are confident in perfect dodging.\n(Credits to Sprygon)\nWarpath can be swapped out for comfort utilities or more damage sigils if you are having problem with SBA generation."
+            },
+            "6":{
+                "title": "High End Build, Zero Comfort and Maximum DPS (Personal preference)",
+                "link": "https://cdn.discordapp.com/attachments/1273840713796157451/1301995093644808243/Screenshot_2024-11-02_023807.png?ex=6729ccac&is=67287b2c&hm=b8273bc599e4039413b8760e7c1886bb9bb2ee6c7be225a35b6db56b21f77328&",
+                "notes": "Personal preference to have max out nimble onslaught.\nRemoved Gamma sigils to include nimble onslaught in, which provides longer invincibility to ignore partial boss mechanics such as Luci.\nUse this only when you are confident in perfect dodging.\n(Credits to Sprygon)\nWarpath can be swapped out for comfort utilities or more damage sigils if you are having problem with SBA generation."
+            },
+            "7":{
+                "title": "Special Build, FoF with Decent DPS",
+                "link": "https://cdn.discordapp.com/attachments/1273840713796157451/1301995616712523796/Screenshot_2024-11-02_024008.png?ex=6729cd28&is=67287ba8&hm=fd1878a2bb358276cf24c8a58dc64625a21e88a84197d02298fc4b3a8a90be84&",
+                "notes": "This can be used to help with no death achievements such as Zero.\nRemoved supplementary damage and included more oranges to hit skill caps.\n(Credits to Sprygon)\nWarpath can be swapped out for comfort utilities or more damage sigils if you are having problem with SBA generation."
             }
         }, 
         "lancelot": {
